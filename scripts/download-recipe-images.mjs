@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const recipesPath = path.join(rootDir, "src", "data", "recipes.json");
+const imageSourcesPath = path.join(rootDir, "scripts", "recipe-image-sources.json");
 const outputDir = path.join(rootDir, "public", "recipes");
 const creditsPath = path.join(outputDir, "credits.json");
 const userAgent = "wochenbett-tinder/0.1 (local static app image preparation)";
@@ -54,6 +55,7 @@ const searchStopWords = new Set([
 ]);
 
 const allRecipes = JSON.parse(await readFile(recipesPath, "utf8"));
+const imageSources = JSON.parse(await readFile(imageSourcesPath, "utf8"));
 const onlyArgument = process.argv.find((argument) => argument.startsWith("--only="));
 const selectedRecipeIds = onlyArgument
   ? new Set(onlyArgument.replace("--only=", "").split(",").map((id) => id.trim()).filter(Boolean))
@@ -90,6 +92,16 @@ function textFromMetadata(value) {
 
 function sourceUrlFromTitle(title) {
   return `https://commons.wikimedia.org/wiki/${encodeURIComponent(title.replaceAll(" ", "_")).replaceAll("%3A", ":")}`;
+}
+
+function titleFromUrl(url) {
+  try {
+    const parsedUrl = new URL(url);
+    const fileName = parsedUrl.pathname.split("/").filter(Boolean).at(-1) ?? parsedUrl.hostname;
+    return decodeURIComponent(fileName).replace(/\.[a-z0-9]+$/i, "").replace(/[-_]+/g, " ");
+  } catch {
+    return url;
+  }
 }
 
 async function queryCommons(searchTerm) {
@@ -286,8 +298,22 @@ function selectFallbackCandidate(pages) {
 }
 
 async function findRecipeImage(recipe) {
+  const webSource = imageSources[recipe.id];
+
+  if (webSource?.imageUrl) {
+    return {
+      kind: "web",
+      imageUrl: webSource.imageUrl,
+      sourceTitle: webSource.title ?? titleFromUrl(webSource.sourceUrl ?? webSource.imageUrl),
+      sourceUrl: webSource.sourceUrl ?? webSource.imageUrl,
+      searchQuery: webSource.searchQuery ?? recipe.imageSearch ?? "",
+      notes: webSource.notes ?? "",
+    };
+  }
+
   if (fileTitleOverrides[recipe.id]) {
-    return queryCommonsTitle(fileTitleOverrides[recipe.id]);
+    const { page, info } = await queryCommonsTitle(fileTitleOverrides[recipe.id]);
+    return { kind: "commons", page, info };
   }
 
   const searchTerms = deriveSearchTerms(recipe);
@@ -299,28 +325,35 @@ async function findRecipeImage(recipe) {
     fallbackCandidate ??= selectFallbackCandidate(pages);
 
     if (candidate) {
-      return candidate;
+      return { kind: "commons", ...candidate };
     }
 
     await sleep(180);
   }
 
   if (fallbackCandidate) {
-    return fallbackCandidate;
+    return { kind: "commons", ...fallbackCandidate };
   }
 
   throw new Error(`No raster image found for "${recipe.name}"`);
 }
 
-async function downloadImage(url, filePath, mime) {
+async function downloadImage(url, filePath, preferredMime) {
   const response = await fetch(url, {
     headers: {
+      Accept: "image/avif,image/webp,image/png,image/jpeg,image/*,*/*;q=0.8",
       "User-Agent": userAgent,
     },
   });
 
   if (!response.ok) {
     throw new Error(`Image download failed for ${url}: ${response.status}`);
+  }
+
+  const mime = response.headers.get("content-type")?.split(";")[0].trim() || preferredMime;
+
+  if (!rasterMimeTypes.has(mime)) {
+    throw new Error(`Unsupported image type for ${url}: ${mime || "unknown"}`);
   }
 
   const bytes = Buffer.from(await response.arrayBuffer());
@@ -357,25 +390,32 @@ const creditByRecipeId = new Map(
 );
 
 for (const [index, recipe] of recipes.entries()) {
-  const { page, info } = await findRecipeImage(recipe);
-  const imageUrl = info.thumburl || info.url;
+  const image = await findRecipeImage(recipe);
+  const imageUrl = image.kind === "web" ? image.imageUrl : image.info.thumburl || image.info.url;
   const filePath = path.join(outputDir, recipe.image);
-  const metadata = info.extmetadata ?? {};
 
-  await downloadImage(imageUrl, filePath, info.mime);
+  await downloadImage(imageUrl, filePath, image.kind === "commons" ? image.info.mime : undefined);
+
+  const metadata = image.kind === "commons" ? image.info.extmetadata ?? {} : {};
 
   creditByRecipeId.set(recipe.id, {
     recipeId: recipe.id,
     recipeName: recipe.name,
     file: recipe.image,
-    sourceTitle: page.title,
-    sourceUrl: sourceUrlFromTitle(page.title),
+    sourceTitle: image.kind === "web" ? image.sourceTitle : image.page.title,
+    sourceUrl: image.kind === "web" ? image.sourceUrl : sourceUrlFromTitle(image.page.title),
+    searchQuery: image.kind === "web" ? image.searchQuery : recipe.imageSearch ?? "",
+    notes: image.kind === "web" ? image.notes : "",
     author: textFromMetadata(metadata.Artist?.value),
     credit: textFromMetadata(metadata.Credit?.value),
     license: textFromMetadata(metadata.LicenseShortName?.value),
   });
 
-  console.log(`${index + 1}/${recipes.length} ${recipe.image} <- ${page.title}`);
+  console.log(
+    `${index + 1}/${recipes.length} ${recipe.image} <- ${
+      image.kind === "web" ? image.sourceTitle : image.page.title
+    }`,
+  );
   await sleep(850);
 }
 

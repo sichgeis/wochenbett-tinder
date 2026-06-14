@@ -6,7 +6,7 @@
     "category": "Suppe / Brühe",
     "image": "wochenbett-huehnerbruehe-mit-nudeln.jpg",
     "imageSearch": "chicken noodle soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20noodle%20soup"
+    "imageSourceUrl": "https://dinnersdishesanddesserts.com/chicken-noodle-soup/"
   },
   {
     "id": "gemuesebruehe-mit-reis-und-ei",
@@ -15,7 +15,7 @@
     "category": "Suppe / Brühe",
     "image": "gemuesebruehe-mit-reis-und-ei.jpg",
     "imageSearch": "vegetable rice soup egg",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20rice%20soup%20egg"
+    "imageSourceUrl": "https://cicili.tv/10-vegetable-egg-drop-soup/"
   },
   {
     "id": "kartoffel-moehren-suppe",
@@ -24,7 +24,7 @@
     "category": "Cremesuppe",
     "image": "kartoffel-moehren-suppe.jpg",
     "imageSearch": "potato carrot soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potato%20carrot%20soup"
+    "imageSourceUrl": "https://pickyeaterblog.com/carrot-potato-soup/"
   },
   {
     "id": "kuerbis-kokos-suppe-mild",
@@ -33,7 +33,7 @@
     "category": "Cremesuppe",
     "image": "kuerbis-kokos-suppe-mild.jpg",
     "imageSearch": "pumpkin coconut soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=pumpkin%20coconut%20soup"
+    "imageSourceUrl": "https://www.foodiesfeed.com/free-food-photo/pumpkin-coconut-soup"
   },
   {
     "id": "tomaten-reis-suppe",
@@ -42,7 +42,7 @@
     "category": "Suppe / Eintopf",
     "image": "tomaten-reis-suppe.jpg",
     "imageSearch": "tomato rice soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20rice%20soup"
+    "imageSourceUrl": "https://soupchick.com/tomato-rice-soup-recipe/"
   },
   {
     "id": "zucchini-kartoffel-cremesuppe",
@@ -51,7 +51,7 @@
     "category": "Cremesuppe",
     "image": "zucchini-kartoffel-cremesuppe.jpg",
     "imageSearch": "zucchini potato soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20potato%20soup"
+    "imageSourceUrl": "https://www.allrecipes.com/recipe/13060/zucchini-soup-i/"
   },
   {
     "id": "pastinakensuppe-mit-kartoffel",
@@ -60,7 +60,7 @@
     "category": "Cremesuppe",
     "image": "pastinakensuppe-mit-kartoffel.jpg",
     "imageSearch": "parsnip potato soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=parsnip%20potato%20soup"
+    "imageSourceUrl": "https://mashandmix.com/creamy-parsnip-potato-soup/"
   },
   {
     "id": "milde-minestrone-ohne-kohl",
@@ -69,7 +69,7 @@
     "category": "Suppe / Eintopf",
     "image": "milde-minestrone-ohne-kohl.jpg",
     "imageSearch": "minestrone soup",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=minestrone%20soup"
+    "imageSourceUrl": "https://www.simplyrecipes.com/recipes/minestrone_soup/"
   },
   {
     "id": "huehnerfrikassee-mit-reis",
@@ -78,7 +78,7 @@
     "category": "Reisgericht / Hausmannskost",
     "image": "huehnerfrikassee-mit-reis.jpg",
     "imageSearch": "chicken fricassee rice",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20fricassee%20rice"
+    "imageSourceUrl": "https://www.bbcgoodfood.com/recipes/easy-chicken-fricassee"
   },
   {
     "id": "mildes-rindergulasch-mit-kartoffeln",
@@ -87,7 +87,7 @@
     "category": "Eintopf / Fleisch",
     "image": "mildes-rindergulasch-mit-kartoffeln.jpg",
     "imageSearch": "beef stew potatoes",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=beef%20stew%20potatoes"
+    "imageSourceUrl": "https://timetocooks.com/slow-cooker-beef-potato-winter-stew/"
   },
   {
     "id": "mediterraner-rinderschmortopf",
@@ -96,7 +96,7 @@
     "category": "Eintopf / Mediterran",
     "image": "mediterraner-rinderschmortopf.jpg",
     "imageSearch": "mediterranean beef stew",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mediterranean%20beef%20stew"
+    "imageSourceUrl": "https://itsnotcomplicatedrecipes.com/mediterranean-beef-stew/"
   },
   {
     "id": "haehnchen-kokos-curry-mild",
@@ -105,7 +105,7 @@
     "category": "Mildes Curry",
     "image": "haehnchen-kokos-curry-mild.jpg",
     "imageSearch": "mild chicken coconut curry",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20chicken%20coconut%20curry"
+    "imageSourceUrl": "https://thestayathomechef.com/coconut-curry/"
   },
   {
     "id": "gelbes-gemuese-kokos-curry",
@@ -114,7 +114,7 @@
     "category": "Mildes Curry / vegetarisch",
     "image": "gelbes-gemuese-kokos-curry.jpg",
     "imageSearch": "yellow vegetable coconut curry",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=yellow%20vegetable%20coconut%20curry"
+    "imageSourceUrl": "https://plantbasedonabudget.com/coconut-curry/"
   },
   {
     "id": "butter-chicken-mild",
@@ -123,7 +123,7 @@
     "category": "Mildes Curry / Fleisch",
     "image": "butter-chicken-mild.jpg",
     "imageSearch": "butter chicken curry",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=butter%20chicken%20curry"
+    "imageSourceUrl": "https://www.theendlessmeal.com/easy-butter-chicken/"
   },
   {
     "id": "kokos-reis-gemuese-pfanne",
@@ -132,7 +132,7 @@
     "category": "Reisgericht",
     "image": "kokos-reis-gemuese-pfanne.jpg",
     "imageSearch": "coconut rice vegetables",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=coconut%20rice%20vegetables"
+    "imageSourceUrl": "https://www.walderwellness.com/creamy-coconut-curry-rice-with-vegetables/"
   },
   {
     "id": "risi-bisi-mit-huhn",
@@ -141,7 +141,7 @@
     "category": "Reisgericht",
     "image": "risi-bisi-mit-huhn.jpg",
     "imageSearch": "chicken rice peas",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20rice%20peas"
+    "imageSourceUrl": "https://www.simplyrecipes.com/recipes/skillet_chicken_and_rice/"
   },
   {
     "id": "tomaten-basilikum-pastasauce",
@@ -150,7 +150,7 @@
     "category": "Pasta-Sauce",
     "image": "tomaten-basilikum-pastasauce.jpg",
     "imageSearch": "tomato basil pasta sauce",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20basil%20pasta%20sauce"
+    "imageSourceUrl": "https://beamingbaker.com/tomato-basil-pasta/"
   },
   {
     "id": "gemuese-bolognese-mild",
@@ -159,7 +159,7 @@
     "category": "Pasta-Sauce / vegetarisch",
     "image": "gemuese-bolognese-mild.jpg",
     "imageSearch": "vegetable bolognese sauce",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20bolognese%20sauce"
+    "imageSourceUrl": "https://buildyourbite.com/vegetable-bolognese-recipe/"
   },
   {
     "id": "klassische-bolognese-mild",
@@ -168,7 +168,7 @@
     "category": "Pasta-Sauce / Fleisch",
     "image": "klassische-bolognese-mild.jpg",
     "imageSearch": "bolognese sauce",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=bolognese%20sauce"
+    "imageSourceUrl": "https://www.eatingonadime.com/bolognese-sauce-recipe/"
   },
   {
     "id": "lachs-tomaten-sauce-mit-zitrone",
@@ -177,7 +177,7 @@
     "category": "Pasta-Sauce / Fisch",
     "image": "lachs-tomaten-sauce-mit-zitrone.jpg",
     "imageSearch": "salmon tomato pasta lemon",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=salmon%20tomato%20pasta%20lemon"
+    "imageSourceUrl": "https://www.saltandlavender.com/salmon-spaghetti-creamy-lemon-fresh-tomato-sauce/"
   },
   {
     "id": "spinat-ricotta-pastasauce",
@@ -186,7 +186,7 @@
     "category": "Pasta-Sauce / vegetarisch",
     "image": "spinat-ricotta-pastasauce.jpg",
     "imageSearch": "spinach ricotta pasta",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20pasta"
+    "imageSourceUrl": "https://www.spoonfulofflavor.com/spinach-and-ricotta-pasta/"
   },
   {
     "id": "zucchini-frischkaese-pastasauce",
@@ -195,7 +195,7 @@
     "category": "Pasta-Sauce / vegetarisch",
     "image": "zucchini-frischkaese-pastasauce.jpg",
     "imageSearch": "zucchini cream cheese pasta",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20cream%20cheese%20pasta"
+    "imageSourceUrl": "https://anitalianinmykitchen.com/zucchini-cream-cheese-pasta/"
   },
   {
     "id": "lasagne-bolognese-mild",
@@ -204,7 +204,7 @@
     "category": "Lasagne / Auflauf",
     "image": "lasagne-bolognese-mild.jpg",
     "imageSearch": "lasagna bolognese",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=lasagna%20bolognese"
+    "imageSourceUrl": "https://www.heavenlyrecipe.com/savory-lasagna-alla-bolognese-a-comfort-food-delight/"
   },
   {
     "id": "spinat-ricotta-lasagne",
@@ -213,7 +213,7 @@
     "category": "Lasagne / vegetarisch",
     "image": "spinat-ricotta-lasagne.jpg",
     "imageSearch": "spinach ricotta lasagna",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20lasagna"
+    "imageSourceUrl": "https://www.linasecretingredients.com/spinach-and-ricotta-lasagna-recipe/"
   },
   {
     "id": "gemuese-lasagne-mediterran",
@@ -222,7 +222,7 @@
     "category": "Lasagne / vegetarisch",
     "image": "gemuese-lasagne-mediterran.jpg",
     "imageSearch": "vegetable lasagna",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20lasagna"
+    "imageSourceUrl": "https://kristineskitchenblog.com/vegetable-lasagna/"
   },
   {
     "id": "kuerbis-lasagne",
@@ -231,7 +231,7 @@
     "category": "Lasagne / Ofengericht",
     "image": "kuerbis-lasagne.jpg",
     "imageSearch": "pumpkin lasagna",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=pumpkin%20lasagna"
+    "imageSourceUrl": "https://www.recipesfromitaly.com/pumpkin-lasagna/"
   },
   {
     "id": "nudelauflauf-tomate-mozzarella",
@@ -240,7 +240,7 @@
     "category": "Auflauf / Pasta",
     "image": "nudelauflauf-tomate-mozzarella.jpg",
     "imageSearch": "tomato mozzarella pasta bake",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20mozzarella%20pasta%20bake"
+    "imageSourceUrl": "https://recipesbyelina.com/pasta/creamy-tomato-mozzarella-pasta-bake/"
   },
   {
     "id": "gnocchi-auflauf-tomate-kaese",
@@ -249,7 +249,7 @@
     "category": "Auflauf / Gnocchi",
     "image": "gnocchi-auflauf-tomate-kaese.jpg",
     "imageSearch": "gnocchi tomato cheese bake",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=gnocchi%20tomato%20cheese%20bake"
+    "imageSourceUrl": "https://myspecialfood.com/cheesy-tomato-baked-gnocchi-recipe/"
   },
   {
     "id": "tortellini-auflauf-mit-spinat",
@@ -258,7 +258,7 @@
     "category": "Auflauf / Convenience",
     "image": "tortellini-auflauf-mit-spinat.jpg",
     "imageSearch": "tortellini spinach bake",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tortellini%20spinach%20bake"
+    "imageSourceUrl": "https://viprecipe.com/creamy-alfredo-tortellini-bake-with-spinach/"
   },
   {
     "id": "kartoffelgratin-mit-gemuese",
@@ -267,7 +267,7 @@
     "category": "Auflauf / Kartoffel",
     "image": "kartoffelgratin-mit-gemuese.jpg",
     "imageSearch": "potato gratin vegetables",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potato%20gratin%20vegetables"
+    "imageSourceUrl": "https://www.servingdumplings.com/recipe/potato-and-vegetable-gratin/"
   },
   {
     "id": "kartoffel-haehnchen-auflauf",
@@ -276,7 +276,7 @@
     "category": "Auflauf / Fleisch",
     "image": "kartoffel-haehnchen-auflauf.jpg",
     "imageSearch": "chicken potato casserole",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20potato%20casserole"
+    "imageSourceUrl": "https://insanelygoodrecipes.com/chicken-and-potato-casserole/"
   },
   {
     "id": "lachs-kartoffel-auflauf",
@@ -285,7 +285,7 @@
     "category": "Auflauf / Fisch",
     "image": "lachs-kartoffel-auflauf.jpg",
     "imageSearch": "salmon potato casserole",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=salmon%20potato%20casserole"
+    "imageSourceUrl": "https://www.deliciousmagazine.co.uk/recipes/salmon-and-potato-bake/"
   },
   {
     "id": "shepherds-pie-mild",
@@ -294,7 +294,7 @@
     "category": "Ofengericht / Fleisch",
     "image": "shepherds-pie-mild.jpg",
     "imageSearch": "shepherd's pie",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=shepherd%27s%20pie"
+    "imageSourceUrl": "https://zazacook.com/shepherds-pie-recipe-red-wine/"
   },
   {
     "id": "gemuese-shepherds-pie",
@@ -303,7 +303,7 @@
     "category": "Ofengericht / vegetarisch",
     "image": "gemuese-shepherds-pie.jpg",
     "imageSearch": "vegetarian shepherd's pie",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetarian%20shepherd%27s%20pie"
+    "imageSourceUrl": "https://www.coolinarco.com/recipe/vegetable-shepherds-pie"
   },
   {
     "id": "moussaka-mild",
@@ -312,7 +312,7 @@
     "category": "Auflauf / Griechisch",
     "image": "moussaka-mild.jpg",
     "imageSearch": "moussaka",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=moussaka"
+    "imageSourceUrl": "https://www.yummyrecipes.blog/traditional-greek-moussaka/"
   },
   {
     "id": "zucchini-hack-auflauf",
@@ -321,7 +321,7 @@
     "category": "Auflauf / Fleisch",
     "image": "zucchini-hack-auflauf.jpg",
     "imageSearch": "zucchini beef casserole",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20beef%20casserole"
+    "imageSourceUrl": "https://diethood.com/beef-zucchini-casserole/"
   },
   {
     "id": "milde-cannelloni-ricotta-spinat",
@@ -330,7 +330,7 @@
     "category": "Ofenpasta / vegetarisch",
     "image": "milde-cannelloni-ricotta-spinat.jpg",
     "imageSearch": "spinach ricotta cannelloni",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20cannelloni"
+    "imageSourceUrl": "https://www.recipetineats.com/spinach-ricotta-cannelloni/"
   },
   {
     "id": "cannelloni-hack-tomate-mild",
@@ -339,7 +339,7 @@
     "category": "Ofenpasta / Fleisch",
     "image": "cannelloni-hack-tomate-mild.jpg",
     "imageSearch": "beef cannelloni",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=beef%20cannelloni"
+    "imageSourceUrl": "https://recipescookery.com/baked-beef-cannelloni-with-creamy-mozzarella-sauce/"
   },
   {
     "id": "mediterrane-haehnchen-tomaten-pfanne",
@@ -348,7 +348,7 @@
     "category": "Pfannengericht / Mediterran",
     "image": "mediterrane-haehnchen-tomaten-pfanne.jpg",
     "imageSearch": "mediterranean chicken tomato skillet",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mediterranean%20chicken%20tomato%20skillet"
+    "imageSourceUrl": "https://www.eatingwell.com/recipe/7884929/skillet-chicken-with-orzo-tomatoes/"
   },
   {
     "id": "ofen-haehnchen-mit-kartoffeln-und-zitrone",
@@ -357,7 +357,7 @@
     "category": "Ofengericht / Huhn",
     "image": "ofen-haehnchen-mit-kartoffeln-und-zitrone.jpg",
     "imageSearch": "lemon chicken potatoes",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=lemon%20chicken%20potatoes"
+    "imageSourceUrl": "https://oliviaadriance.com/roasted-lemon-chicken-and-potatoes/"
   },
   {
     "id": "putenbaellchen-in-tomatensauce",
@@ -366,7 +366,7 @@
     "category": "Sauce / Fleisch",
     "image": "putenbaellchen-in-tomatensauce.jpg",
     "imageSearch": "turkey meatballs tomato sauce",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=turkey%20meatballs%20tomato%20sauce"
+    "imageSourceUrl": "https://becentsational.com/turkey-meatballs-in-tomato-sauce/"
   },
   {
     "id": "spinat-feta-quiche-mild",
@@ -375,7 +375,7 @@
     "category": "Herzhafter Snack / vegetarisch",
     "image": "spinat-feta-quiche-mild.jpg",
     "imageSearch": "spinach feta quiche",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20feta%20quiche"
+    "imageSourceUrl": "https://recipesbyaria.com/spinach-feta-quiche/"
   },
   {
     "id": "wrap-fuellung-haehnchen-gemuese",
@@ -384,7 +384,7 @@
     "category": "Wrap-Füllung",
     "image": "wrap-fuellung-haehnchen-gemuese.jpg",
     "imageSearch": "chicken vegetable wrap filling",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20vegetable%20wrap%20filling"
+    "imageSourceUrl": "https://flavoritely.com/easy-juicy-grilled-chicken-veggie-wrap-recipe-youll-love/"
   },
   {
     "id": "mildes-bohnen-chili-klein-testen",
@@ -393,7 +393,7 @@
     "category": "Eintopf / Testgericht",
     "image": "mildes-bohnen-chili-klein-testen.jpg",
     "imageSearch": "mild chili con carne",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20chili%20con%20carne"
+    "imageSourceUrl": "https://getrecipecart.com/recipe/classic-chili-con-carne/60283219eddbb79441f7434b"
   },
   {
     "id": "linsen-dal-mild-klein-testen",
@@ -402,7 +402,7 @@
     "category": "Curry / Testgericht",
     "image": "linsen-dal-mild-klein-testen.jpg",
     "imageSearch": "mild lentil dal",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20lentil%20dal"
+    "imageSourceUrl": "https://yummywords.com/vegan-red-lentil-dal/"
   },
   {
     "id": "kartoffeln-mit-fruehlingsquark",
@@ -411,7 +411,7 @@
     "category": "Frisches Schnellgericht",
     "image": "kartoffeln-mit-fruehlingsquark.jpg",
     "imageSearch": "potatoes herb quark",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potatoes%20herb%20quark"
+    "imageSourceUrl": "https://mybestgermanrecipes.com/herb-quark-with-potatoes/"
   },
   {
     "id": "overnight-oats-zitrone-beeren",
@@ -420,7 +420,7 @@
     "category": "Frühstück / Snack",
     "image": "overnight-oats-zitrone-beeren.jpg",
     "imageSearch": "overnight oats berries lemon",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=overnight%20oats%20berries%20lemon"
+    "imageSourceUrl": "https://sinfulnutrition.com/lemon-blueberry-overnight-oats/"
   },
   {
     "id": "porridge-mix-apfel-zimt",
@@ -429,7 +429,7 @@
     "category": "Frühstück / Vorrat",
     "image": "porridge-mix-apfel-zimt.jpg",
     "imageSearch": "apple cinnamon porridge",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=apple%20cinnamon%20porridge"
+    "imageSourceUrl": "https://www.mygorgeousrecipes.com/apple-and-cinnamon-porridge/"
   },
   {
     "id": "smoothie-packs-beere-kefir",
@@ -438,7 +438,7 @@
     "category": "Snack / Getränk",
     "image": "smoothie-packs-beere-kefir.jpg",
     "imageSearch": "berry kefir smoothie",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=berry%20kefir%20smoothie"
+    "imageSourceUrl": "https://www.eatingbirdfood.com/kefir-smoothie/"
   },
   {
     "id": "herzhafte-eiermuffins-mild",
@@ -447,6 +447,6 @@
     "category": "Snack / Ei",
     "image": "herzhafte-eiermuffins-mild.jpg",
     "imageSearch": "egg muffins vegetables",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=egg%20muffins%20vegetables"
+    "imageSourceUrl": "https://recipeschat.com/vegetable-egg-muffins/"
   }
 ]
