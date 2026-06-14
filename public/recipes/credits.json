@@ -73,9 +73,9 @@
     "recipeId": "milde-minestrone-ohne-kohl",
     "recipeName": "Milde Minestrone ohne Kohl",
     "file": "milde-minestrone-ohne-kohl.jpg",
-    "sourceTitle": "File:Minestrone Soup.JPG",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minestrone_Soup.JPG",
-    "author": "Intothewoods29",
+    "sourceTitle": "File:Minestrone.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minestrone.jpg",
+    "author": "Arnaud 25",
     "credit": "Own work",
     "license": "Public domain"
   },
@@ -163,11 +163,11 @@
     "recipeId": "tomaten-basilikum-pastasauce",
     "recipeName": "Tomaten-Basilikum-Pastasauce",
     "file": "tomaten-basilikum-pastasauce.jpg",
-    "sourceTitle": "File:DFC 5023 Stir-fried spaghetti with squid fresh basil and cherry tomatoes - a Thai-inspired seafood pasta served hot.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DFC_5023_Stir-fried_spaghetti_with_squid_fresh_basil_and_cherry_tomatoes_-_a_Thai-inspired_seafood_pasta_served_hot.jpg",
-    "author": "PattayaPatrol",
-    "credit": "Flickr",
-    "license": "CC BY-SA 4.0"
+    "sourceTitle": "File:Spaghetti al Pomodoro.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_al_Pomodoro.JPG",
+    "author": "Benreis",
+    "credit": "Own work",
+    "license": "CC BY 3.0"
   },
   {
     "recipeId": "gemuese-bolognese-mild",
@@ -183,11 +183,11 @@
     "recipeId": "klassische-bolognese-mild",
     "recipeName": "Klassische Bolognese mild",
     "file": "klassische-bolognese-mild.jpg",
-    "sourceTitle": "File:Liat Portal for Foodie Disorder - Crashed baked potatoes with broccoli and herbed turmeric rice topped with bolognese sauce.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Crashed_baked_potatoes_with_broccoli_and_herbed_turmeric_rice_topped_with_bolognese_sauce.jpg",
-    "author": "HaJunkiyada",
-    "credit": "Own work",
-    "license": "CC BY-SA 4.0"
+    "sourceTitle": "File:Spaghetti Bolognese.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_Bolognese.jpg",
+    "author": "No machine-readable author provided. Chingon assumed (based on copyright claims).",
+    "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+    "license": "Public domain"
   },
   {
     "recipeId": "lachs-tomaten-sauce-mit-zitrone",
@@ -263,11 +263,11 @@
     "recipeId": "nudelauflauf-tomate-mozzarella",
     "recipeName": "Nudelauflauf Tomate-Mozzarella",
     "file": "nudelauflauf-tomate-mozzarella.jpg",
-    "sourceTitle": "File:Tomato pasta noodles.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomato_pasta_noodles.jpg",
-    "author": "Mallikarjunasj",
-    "credit": "Own work",
-    "license": "CC BY-SA 4.0"
+    "sourceTitle": "File:Pasta bake.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_bake.jpg",
+    "author": "Steve Johnson from Valparaiso Indiana, USA",
+    "credit": "Pasta Bake",
+    "license": "CC BY 2.0"
   },
   {
     "recipeId": "gnocchi-auflauf-tomate-kaese",
@@ -343,21 +343,21 @@
     "recipeId": "moussaka-mild",
     "recipeName": "Moussaka mild",
     "file": "moussaka-mild.jpg",
-    "sourceTitle": "File:Lamb moussaka at the Vine Inn, Ower - geograph.org.uk - 184213.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamb_moussaka_at_the_Vine_Inn%2C_Ower_-_geograph.org.uk_-_184213.jpg",
-    "author": "Peter Jordan",
-    "credit": "From geograph.org.uk",
-    "license": "CC BY-SA 2.0"
+    "sourceTitle": "File:Mousakas.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mousakas.jpg",
+    "author": "Fotograf: Dieter Mueller (dino1948) Kamera: de:Nikon 885",
+    "credit": "Own work",
+    "license": "CC BY-SA 3.0"
   },
   {
     "recipeId": "zucchini-hack-auflauf",
     "recipeName": "Zucchini-Hack-Auflauf",
     "file": "zucchini-hack-auflauf.jpg",
-    "sourceTitle": "File:2025-0604 Mastard 05 zucchini beef mint.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-0604_Mastard_05_zucchini_beef_mint.jpg",
-    "author": "Bobak Ha'Eri",
+    "sourceTitle": "File:Sandal sefasi.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandal_sefasi.jpg",
+    "author": "E4024",
     "credit": "Own work",
-    "license": "CC BY 3.0"
+    "license": "CC BY-SA 4.0"
   },
   {
     "recipeId": "milde-cannelloni-ricotta-spinat",
@@ -383,11 +383,11 @@
     "recipeId": "mediterrane-haehnchen-tomaten-pfanne",
     "recipeName": "Mediterrane Hähnchen-Tomaten-Pfanne",
     "file": "mediterrane-haehnchen-tomaten-pfanne.jpg",
-    "sourceTitle": "File:Mediterranean salad with chicken and watermelon - London, UK.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mediterranean_salad_with_chicken_and_watermelon_-_London%2C_UK.jpg",
-    "author": "Daderot",
-    "credit": "Own work",
-    "license": "CC0"
+    "sourceTitle": "File:Chicken cacciatore.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_cacciatore.jpg",
+    "author": "Chris Bennett",
+    "credit": "Chicken Cacciatore (Hunter Style Chicken)",
+    "license": "CC BY 2.0"
   },
   {
     "recipeId": "ofen-haehnchen-mit-kartoffeln-und-zitrone",
@@ -493,10 +493,10 @@
     "recipeId": "herzhafte-eiermuffins-mild",
     "recipeName": "Herzhafte Eiermuffins mild",
     "file": "herzhafte-eiermuffins-mild.jpg",
-    "sourceTitle": "File:FoodOmelete.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FoodOmelete.jpg",
-    "author": "Renee Comet (photographer)",
-    "credit": "This image was released by the National Cancer Institute, an agency part of the National Institutes of Health, with the ID 2606 (image) (next).",
-    "license": "Public domain"
+    "sourceTitle": "File:Frittata.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frittata.jpg",
+    "author": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 17-40mm f/4 L",
+    "credit": "Own work",
+    "license": "GFDL 1.2"
   }
 ]

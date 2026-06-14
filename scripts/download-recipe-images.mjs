@@ -12,12 +12,20 @@ const userAgent = "wochenbett-tinder/0.1 (local static app image preparation)";
 const execFileAsync = promisify(execFile);
 const rasterMimeTypes = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const fileTitleOverrides = {
-  "herzhafte-eiermuffins-mild": "File:FoodOmelete.jpg",
+  "gemuese-lasagne-mediterran": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
+  "herzhafte-eiermuffins-mild": "File:Frittata.jpg",
+  "klassische-bolognese-mild": "File:Spaghetti Bolognese.jpg",
   "kuerbis-lasagne": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
   "linsen-dal-mild-klein-testen": "File:Dal tadka with hot chilli.jpg",
+  "mediterrane-haehnchen-tomaten-pfanne": "File:Chicken cacciatore.jpg",
   "mediterraner-rinderschmortopf": "File:Claypot beef stew with potatoes and mushrooms.jpg",
+  "milde-minestrone-ohne-kohl": "File:Minestrone.jpg",
   "mildes-bohnen-chili-klein-testen": "File:Chili con carne (4431800858).jpg",
+  "moussaka-mild": "File:Mousakas.jpg",
+  "nudelauflauf-tomate-mozzarella": "File:Pasta bake.jpg",
   "smoothie-packs-beere-kefir": "File:Healthy Blueberry Smoothie.jpg",
+  "tomaten-basilikum-pastasauce": "File:Spaghetti al Pomodoro.JPG",
+  "zucchini-hack-auflauf": "File:Sandal sefasi.jpg",
 };
 const searchStopWords = new Set([
   "and",
