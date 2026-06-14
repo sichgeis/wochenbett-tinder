@@ -448,5 +448,275 @@
     "image": "herzhafte-eiermuffins-mild.jpg",
     "imageSearch": "egg muffins vegetables",
     "imageSourceUrl": "https://recipeschat.com/vegetable-egg-muffins/"
+  },
+  {
+    "id": "chicken-barley-soup",
+    "name": "Chicken Barley Soup",
+    "description": "Milde Hühnersuppe mit Graupen, Möhren und Sellerie; sättigender als klassische Brühe, aber weiterhin sanft.",
+    "category": "Suppe / Huhn",
+    "image": "chicken-barley-soup.jpg",
+    "imageSearch": "chicken barley soup",
+    "imageSourceUrl": "https://insanelygoodrecipes.com/chicken-barley-soup/"
+  },
+  {
+    "id": "turkey-rice-soup",
+    "name": "Turkey Rice Soup",
+    "description": "Leichte Suppe mit Pute, Reis und Gemüse; gut als warme, unkomplizierte Wochenbett-Mahlzeit.",
+    "category": "Suppe / Geflügel",
+    "image": "turkey-rice-soup.jpg",
+    "imageSearch": "turkey rice soup",
+    "imageSourceUrl": "https://insanelygoodrecipes.com/turkey-and-rice-soup/"
+  },
+  {
+    "id": "chicken-orzo-soup",
+    "name": "Chicken Orzo Soup",
+    "description": "Mediterrane Hühnersuppe mit kleinen Orzo-Nudeln, Zitrone und Kräutern; mild und frisch.",
+    "category": "Suppe / Mediterran",
+    "image": "chicken-orzo-soup.jpg",
+    "imageSearch": "chicken orzo soup lemon",
+    "imageSourceUrl": "https://www.modernhoney.com/lemon-chicken-orzo-soup/"
+  },
+  {
+    "id": "avgolemono-mild",
+    "name": "Avgolemono mild",
+    "description": "Griechische Zitronen-Hühner-Reis-Suppe mit Ei-Zitronen-Bindung; Julia-Zitronen-kompatibel und comfortig.",
+    "category": "Suppe / Griechisch",
+    "image": "avgolemono-mild.jpg",
+    "imageSearch": "avgolemono soup",
+    "imageSourceUrl": "https://www.onceuponachef.com/recipes/avgolemono-chicken-soup-with-rice.html"
+  },
+  {
+    "id": "ribollita-mild-ohne-kohl-fokus",
+    "name": "Ribollita mild ohne Kohl-Fokus",
+    "description": "Toskanischer Broteintopf mit Tomate, Gemüse und weißen Bohnen; Bohnenanteil für Verträglichkeit klein halten.",
+    "category": "Eintopf / Italienisch",
+    "image": "ribollita-mild-ohne-kohl-fokus.jpg",
+    "imageSearch": "ribollita soup",
+    "imageSourceUrl": "https://www.simplyrecipes.com/easy-tuscan-ribollita-recipe-8581964"
+  },
+  {
+    "id": "weisse-bohnen-tomaten-eintopf-klein-testen",
+    "name": "Weiße-Bohnen-Tomaten-Eintopf klein testen",
+    "description": "Milder Tomaten-Kräuter-Eintopf mit weißen Bohnen; nährstoffreich, aber als Hülsenfrucht-Testgericht.",
+    "category": "Eintopf / Testgericht",
+    "image": "weisse-bohnen-tomaten-eintopf-klein-testen.jpg",
+    "imageSearch": "white bean tomato stew",
+    "imageSourceUrl": "https://www.crowdedkitchen.com/white-bean-tomato-stew/"
+  },
+  {
+    "id": "susskartoffel-mohren-suppe",
+    "name": "Süßkartoffel-Möhren-Suppe",
+    "description": "Cremige, leicht süßliche Suppe mit Süßkartoffel und Möhren; gut einfrierbar und sanft.",
+    "category": "Cremesuppe",
+    "image": "susskartoffel-mohren-suppe.jpg",
+    "imageSearch": "sweet potato carrot soup",
+    "imageSourceUrl": "https://insanelygoodrecipes.com/sweet-potato-and-carrot-soup/"
+  },
+  {
+    "id": "brokkoli-kase-suppe-mild",
+    "name": "Brokkoli-Käse-Suppe mild",
+    "description": "Cremige Suppe mit Brokkoli und Käse; comfortig, aber wegen Brokkoli eher als späteres Testgericht.",
+    "category": "Cremesuppe / Testgericht",
+    "image": "brokkoli-kase-suppe-mild.jpg",
+    "imageSearch": "broccoli cheddar soup",
+    "imageSourceUrl": "https://mexfoody.com/broccoli-cheddar-soup-recipes/"
+  },
+  {
+    "id": "blumenkohl-kartoffel-suppe",
+    "name": "Blumenkohl-Kartoffel-Suppe",
+    "description": "Cremesuppe mit Blumenkohl und Kartoffel; mild, sättigend, aber wegen Kohl vorsichtig testen.",
+    "category": "Cremesuppe / Testgericht",
+    "image": "blumenkohl-kartoffel-suppe.jpg",
+    "imageSearch": "cauliflower potato soup",
+    "imageSourceUrl": "https://whatsinthepan.com/roasted-cauliflower-potato-soup/"
+  },
+  {
+    "id": "hahnchen-brokkoli-reis-auflauf",
+    "name": "Hähnchen-Brokkoli-Reis-Auflauf",
+    "description": "Cremiger Reisauflauf mit Hähnchen, Brokkoli und Käse; klassisches Freezer-Meal.",
+    "category": "Auflauf / Reis",
+    "image": "hahnchen-brokkoli-reis-auflauf.jpg",
+    "imageSearch": "chicken broccoli rice casserole",
+    "imageSourceUrl": "https://thatovenfeelin.com/chicken-broccoli-rice-casserole/"
+  },
+  {
+    "id": "puten-zucchini-reis-auflauf",
+    "name": "Puten-Zucchini-Reis-Auflauf",
+    "description": "Milder Auflauf mit Putenhack, Zucchini, Reis und Tomatensauce; saftig und gut portionierbar.",
+    "category": "Auflauf / Geflügel",
+    "image": "puten-zucchini-reis-auflauf.jpg",
+    "imageSearch": "turkey zucchini rice casserole",
+    "imageSourceUrl": "https://www.cookincanuck.com/healthy-turkey-zucchini-rice-casserole/"
+  },
+  {
+    "id": "auberginen-parmigiana-mild",
+    "name": "Auberginen-Parmigiana mild",
+    "description": "Italienischer Auberginen-Tomaten-Käse-Auflauf; vegetarisch, mediterran und sehr comfortig.",
+    "category": "Auflauf / Italienisch",
+    "image": "auberginen-parmigiana-mild.jpg",
+    "imageSearch": "eggplant parmigiana",
+    "imageSourceUrl": "https://www.recipetineats.com/eggplant-parmigiana/"
+  },
+  {
+    "id": "zucchini-parmigiana",
+    "name": "Zucchini-Parmigiana",
+    "description": "Leichtere Alternative zur Auberginen-Parmigiana mit Zucchini, Tomate und Käse.",
+    "category": "Auflauf / Italienisch",
+    "image": "zucchini-parmigiana.jpg",
+    "imageSearch": "zucchini parmigiana",
+    "imageSourceUrl": "https://kneadtocook.com/zucchini-parmigiana-discover-the-recipe-that-reinvents-this-italian-classic/"
+  },
+  {
+    "id": "baked-ziti-mild",
+    "name": "Baked Ziti mild",
+    "description": "Amerikanisch-italienischer Pastaauflauf mit Tomatensauce, Ricotta/Mozzarella und wenig Gewürz.",
+    "category": "Pasta-Auflauf",
+    "image": "baked-ziti-mild.jpg",
+    "imageSearch": "baked ziti",
+    "imageSourceUrl": "https://bellyfull.net/baked-ziti-recipe/"
+  },
+  {
+    "id": "mac-and-cheese-mit-blumenkohl",
+    "name": "Mac and Cheese mit Blumenkohl",
+    "description": "Cremiger Käse-Nudel-Auflauf mit etwas Blumenkohl; comfortig, aber Kohlanteil klein halten.",
+    "category": "Pasta-Auflauf / Testgericht",
+    "image": "mac-and-cheese-mit-blumenkohl.jpg",
+    "imageSearch": "cauliflower mac and cheese",
+    "imageSourceUrl": "https://www.dishingdelish.com/cauliflower-mac-and-cheese/"
+  },
+  {
+    "id": "ravioli-lasagne",
+    "name": "Ravioli-Lasagne",
+    "description": "Sehr einfache Lasagne-Variante mit fertigen Ravioli/Tortellini, Tomatensauce und Käse.",
+    "category": "Auflauf / Convenience",
+    "image": "ravioli-lasagne.jpg",
+    "imageSearch": "ravioli lasagna casserole",
+    "imageSourceUrl": "https://www.tasteofhome.com/recipes/ravioli-lasagna/"
+  },
+  {
+    "id": "lasagne-rollchen-spinat-ricotta",
+    "name": "Lasagne-Röllchen Spinat-Ricotta",
+    "description": "Vorgefüllte Lasagne-Röllchen in Tomatensauce; gut portionsweise einzufrieren.",
+    "category": "Ofenpasta / vegetarisch",
+    "image": "lasagne-rollchen-spinat-ricotta.jpg",
+    "imageSearch": "spinach ricotta lasagna roll ups",
+    "imageSourceUrl": "https://kristineskitchenblog.com/spinach-lasagna-roll-ups/"
+  },
+  {
+    "id": "gefullte-paprika-mit-reis-und-hack",
+    "name": "Gefüllte Paprika mit Reis und Hack",
+    "description": "Milde Paprika mit Reis-Hack-Füllung und Tomatensauce; gut einzeln portionierbar.",
+    "category": "Ofengericht / Fleisch",
+    "image": "gefullte-paprika-mit-reis-und-hack.jpg",
+    "imageSearch": "stuffed peppers rice ground beef",
+    "imageSourceUrl": "https://yourrecipeguide.com/easy-stuffed-bell-peppers-with-ground-beef-and-brown-rice-recipe/"
+  },
+  {
+    "id": "gefullte-zucchini-mit-tomatenreis",
+    "name": "Gefüllte Zucchini mit Tomatenreis",
+    "description": "Zucchini-Boote mit mildem Tomatenreis und Käse; vegetarisch oder mit Hack möglich.",
+    "category": "Ofengericht / Gemüse",
+    "image": "gefullte-zucchini-mit-tomatenreis.jpg",
+    "imageSearch": "stuffed zucchini tomato rice",
+    "imageSourceUrl": "https://freshapron.com/italian-rice-stuffed-zucchini/"
+  },
+  {
+    "id": "griechischer-reisauflauf-mit-feta",
+    "name": "Griechischer Reisauflauf mit Feta",
+    "description": "Reis, mildes Gemüse, Tomate und Feta aus dem Ofen; mediterran und nicht scharf.",
+    "category": "Reisauflauf / Griechisch",
+    "image": "griechischer-reisauflauf-mit-feta.jpg",
+    "imageSearch": "greek rice casserole feta",
+    "imageSourceUrl": "https://www.fooddolls.com/greek-rice-bake/"
+  },
+  {
+    "id": "zitronen-reis-mit-hahnchen",
+    "name": "Zitronen-Reis mit Hähnchen",
+    "description": "Mildes Reisgericht mit Hähnchen, Zitrone und Kräutern; frisch wirkend, aber warm und sättigend.",
+    "category": "Reisgericht / Huhn",
+    "image": "zitronen-reis-mit-hahnchen.jpg",
+    "imageSearch": "lemon chicken rice casserole",
+    "imageSourceUrl": "https://www.allrecipes.com/lemon-chicken-and-rice-casserole-recipe-8635802"
+  },
+  {
+    "id": "pilz-risotto-basis",
+    "name": "Pilz-Risotto-Basis",
+    "description": "Cremige Risotto-Basis mit Pilzen; als eingefrorene Portion später mit Parmesan auffrischen.",
+    "category": "Reisgericht / vegetarisch",
+    "image": "pilz-risotto-basis.jpg",
+    "imageSearch": "mushroom risotto",
+    "imageSourceUrl": "https://www.recipetineats.com/mushroom-risotto/"
+  },
+  {
+    "id": "tomaten-risotto-mit-mozzarella",
+    "name": "Tomaten-Risotto mit Mozzarella",
+    "description": "Cremiges Tomatenreisgericht mit Mozzarella; italienisch, mild und sehr comfortig.",
+    "category": "Reisgericht / Italienisch",
+    "image": "tomaten-risotto-mit-mozzarella.jpg",
+    "imageSearch": "tomato risotto mozzarella",
+    "imageSourceUrl": "https://www.platingsandpairings.com/caprese-tomato-risotto-4/"
+  },
+  {
+    "id": "kartoffel-lauch-auflauf-mild",
+    "name": "Kartoffel-Lauch-Auflauf mild",
+    "description": "Cremiger Kartoffelauflauf mit Lauch und Käse; Lauchmenge wegen Verträglichkeit moderat halten.",
+    "category": "Kartoffelauflauf / Testgericht",
+    "image": "kartoffel-lauch-auflauf-mild.jpg",
+    "imageSearch": "potato leek casserole",
+    "imageSourceUrl": "https://urbanfarmie.com/potato-leek-gratin/"
+  },
+  {
+    "id": "fennel-and-potato-gratin",
+    "name": "Fennel-and-Potato-Gratin",
+    "description": "Kartoffel-Fenchel-Gratin mit milder Sahnesauce; aromatisch, aber nicht scharf.",
+    "category": "Kartoffelauflauf",
+    "image": "fennel-and-potato-gratin.jpg",
+    "imageSearch": "fennel potato gratin",
+    "imageSourceUrl": "https://leitesculinaria.com/282641/recipes-fennel-potato-gratin.html"
+  },
+  {
+    "id": "susskartoffel-hack-auflauf",
+    "name": "Süßkartoffel-Hack-Auflauf",
+    "description": "Sättigender Auflauf mit Süßkartoffel, mildem Hack und Tomatensauce.",
+    "category": "Auflauf / Fleisch",
+    "image": "susskartoffel-hack-auflauf.jpg",
+    "imageSearch": "sweet potato ground beef casserole",
+    "imageSourceUrl": "https://myhomemaderecipe.com/recipes/sweet-potato-beef-casserole"
+  },
+  {
+    "id": "shredded-chicken-fur-bowls-wraps",
+    "name": "Shredded Chicken für Bowls/Wraps",
+    "description": "Vorgegartes, mild gewürztes Hähnchen als Baukasten für Reis, Wraps, Suppen oder Salat.",
+    "category": "Prep-Komponente",
+    "image": "shredded-chicken-fur-bowls-wraps.jpg",
+    "imageSearch": "shredded chicken meal prep",
+    "imageSourceUrl": "https://recipesfromapantry.com/instant-pot-shredded-chicken/"
+  },
+  {
+    "id": "tomaten-hackballchen-mit-mozzarella",
+    "name": "Tomaten-Hackbällchen mit Mozzarella",
+    "description": "Kleine Hackbällchen in milder Tomatensauce, mit Mozzarella überbackbar; Pasta oder Brot dazu.",
+    "category": "Sauce / Fleisch",
+    "image": "tomaten-hackballchen-mit-mozzarella.jpg",
+    "imageSearch": "meatballs tomato sauce mozzarella",
+    "imageSourceUrl": "https://www.simplyrecipes.com/recipes/mozzarella_stuffed_meatballs_in_tomato_sauce/"
+  },
+  {
+    "id": "gemuse-frittata-wurfel",
+    "name": "Gemüse-Frittata-Würfel",
+    "description": "Gebackene Frittata mit Ei, Käse und mildem Gemüse; als herzhafter Snack oder schnelles Mittagessen.",
+    "category": "Herzhafter Snack / Ei",
+    "image": "gemuse-frittata-wurfel.jpg",
+    "imageSearch": "vegetable frittata feta",
+    "imageSourceUrl": "https://www.justspices.co.uk/recipes/vegetable-allrounder-vegetable-frittata-feta.html"
+  },
+  {
+    "id": "hafer-energieballchen-mit-nussmus",
+    "name": "Hafer-Energiebällchen mit Nussmus",
+    "description": "Kleine No-Bake-Snacks aus Hafer, Nussmus und Trockenfrüchten; gut für Stillhunger zwischendurch.",
+    "category": "Snack / Vorrat",
+    "image": "hafer-energieballchen-mit-nussmus.jpg",
+    "imageSearch": "oat energy bites nut butter",
+    "imageSourceUrl": "https://www.simplyquinoa.com/peanut-butter-energy-bites/"
   }
 ]
