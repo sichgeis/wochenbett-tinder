@@ -12,19 +12,29 @@ const userAgent = "wochenbett-tinder/0.1 (local static app image preparation)";
 const execFileAsync = promisify(execFile);
 const rasterMimeTypes = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const fileTitleOverrides = {
+  "gemuesebruehe-mit-reis-und-ei": "File:Egg Soup-Gyeranguk- (6084411125).jpg",
   "gemuese-lasagne-mediterran": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
+  "gemuese-shepherds-pie": "File:Vegetable Shepherd's Pie Vegan (3326934381).jpg",
   "herzhafte-eiermuffins-mild": "File:Frittata.jpg",
+  "huehnerfrikassee-mit-reis": "File:Chicken Fricasse.jpg",
+  "kartoffel-haehnchen-auflauf": "File:Roasted Chicken, Butterflied, on Potatoes, Baking Pan 01.jpg",
+  "kartoffelgratin-mit-gemuese": "File:Potato gratin with shrimp and broccoli (379175770).jpg",
   "klassische-bolognese-mild": "File:Spaghetti Bolognese.jpg",
-  "kuerbis-lasagne": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
+  "kuerbis-lasagne": "File:Lasagne - stonesoup.jpg",
+  "lasagne-bolognese-mild": "File:Slice of Lasagna.jpg",
   "linsen-dal-mild-klein-testen": "File:Dal tadka with hot chilli.jpg",
-  "mediterrane-haehnchen-tomaten-pfanne": "File:Chicken cacciatore.jpg",
-  "mediterraner-rinderschmortopf": "File:Claypot beef stew with potatoes and mushrooms.jpg",
+  "mediterrane-haehnchen-tomaten-pfanne": "File:Chicken cacciatore (cropped).jpg",
+  "mediterraner-rinderschmortopf": "File:Beef bourguignon NYT.jpg",
   "milde-minestrone-ohne-kohl": "File:Minestrone.jpg",
+  "mildes-rindergulasch-mit-kartoffeln": "File:Beef stew with potatoes and carrots - Massachusetts.jpg",
   "mildes-bohnen-chili-klein-testen": "File:Chili con carne (4431800858).jpg",
   "moussaka-mild": "File:Mousakas.jpg",
   "nudelauflauf-tomate-mozzarella": "File:Pasta bake.jpg",
   "smoothie-packs-beere-kefir": "File:Healthy Blueberry Smoothie.jpg",
+  "spinat-feta-quiche-mild": "File:Quiche de espinacas (Lhardy).JPG",
+  "spinat-ricotta-pastasauce": "File:Conchiglioni.jpg",
   "tomaten-basilikum-pastasauce": "File:Spaghetti al Pomodoro.JPG",
+  "zucchini-frischkaese-pastasauce": "File:Zucchini oil pasta.jpg",
   "zucchini-hack-auflauf": "File:Sandal sefasi.jpg",
 };
 const searchStopWords = new Set([

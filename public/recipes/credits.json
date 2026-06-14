@@ -13,11 +13,11 @@
     "recipeId": "gemuesebruehe-mit-reis-und-ei",
     "recipeName": "Gemüsebrühe mit Reis und Ei",
     "file": "gemuesebruehe-mit-reis-und-ei.jpg",
-    "sourceTitle": "File:Vegetables and Rice Pot - Kings No.1 Cafe (2781227494).jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetables_and_Rice_Pot_-_Kings_No.1_Cafe_(2781227494).jpg",
-    "author": "Alpha from Melbourne, Australia",
-    "credit": "Vegetables and Rice Pot - Kings No.1 Cafe",
-    "license": "CC BY-SA 2.0"
+    "sourceTitle": "File:Egg Soup-Gyeranguk- (6084411125).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egg_Soup-Gyeranguk-_(6084411125).jpg",
+    "author": "Chloe Lim from Seoul, South Korea",
+    "credit": "Egg Soup[Gyeranguk]",
+    "license": "CC BY 2.0"
   },
   {
     "recipeId": "kartoffel-moehren-suppe",
@@ -83,31 +83,31 @@
     "recipeId": "huehnerfrikassee-mit-reis",
     "recipeName": "Hühnerfrikassee mit Reis",
     "file": "huehnerfrikassee-mit-reis.jpg",
-    "sourceTitle": "File:Chicken fricassee.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee.jpg",
-    "author": "Benoit5656",
+    "sourceTitle": "File:Chicken Fricasse.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Fricasse.jpg",
+    "author": "French Recipes",
     "credit": "Own work",
-    "license": "Public domain"
+    "license": "CC BY-SA 3.0"
   },
   {
     "recipeId": "mildes-rindergulasch-mit-kartoffeln",
     "recipeName": "Mildes Rindergulasch mit Kartoffeln",
     "file": "mildes-rindergulasch-mit-kartoffeln.jpg",
-    "sourceTitle": "File:Claypot beef stew with potatoes and mushrooms.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claypot_beef_stew_with_potatoes_and_mushrooms.jpg",
-    "author": "Andrea Nguyen",
-    "credit": "https://www.flickr.com/photos/andrea_nguyen/6308304062/",
-    "license": "CC BY 2.0"
+    "sourceTitle": "File:Beef stew with potatoes and carrots - Massachusetts.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_stew_with_potatoes_and_carrots_-_Massachusetts.jpg",
+    "author": "Daderot",
+    "credit": "Own work",
+    "license": "CC0"
   },
   {
     "recipeId": "mediterraner-rinderschmortopf",
     "recipeName": "Mediterraner Rinderschmortopf",
     "file": "mediterraner-rinderschmortopf.jpg",
-    "sourceTitle": "File:Claypot beef stew with potatoes and mushrooms.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claypot_beef_stew_with_potatoes_and_mushrooms.jpg",
-    "author": "Andrea Nguyen",
-    "credit": "https://www.flickr.com/photos/andrea_nguyen/6308304062/",
-    "license": "CC BY 2.0"
+    "sourceTitle": "File:Beef bourguignon NYT.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_bourguignon_NYT.jpg",
+    "author": "Slayschips",
+    "credit": "Own work",
+    "license": "CC BY-SA 4.0"
   },
   {
     "recipeId": "haehnchen-kokos-curry-mild",
@@ -203,31 +203,31 @@
     "recipeId": "spinat-ricotta-pastasauce",
     "recipeName": "Spinat-Ricotta-Pastasauce",
     "file": "spinat-ricotta-pastasauce.jpg",
-    "sourceTitle": "File:Food 菠菜&瑞可達起司千層麵, Spinach & Ricotta Lasagna, LONGTABLE, 台北 (15708119113).jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Food_%E8%8F%A0%E8%8F%9C%26%E7%91%9E%E5%8F%AF%E9%81%94%E8%B5%B7%E5%8F%B8%E5%8D%83%E5%B1%A4%E9%BA%B5%2C_Spinach_%26_Ricotta_Lasagna%2C_LONGTABLE%2C_%E5%8F%B0%E5%8C%97_(15708119113).jpg",
-    "author": "bryan... from Taipei, Taiwan",
-    "credit": "菠菜&瑞可達起司千層麵, Spinach & Ricotta Lasagna, LONGTABLE, 台北",
-    "license": "CC BY-SA 2.0"
+    "sourceTitle": "File:Conchiglioni.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conchiglioni.jpg",
+    "author": "Topquark22",
+    "credit": "Own work",
+    "license": "Attribution"
   },
   {
     "recipeId": "zucchini-frischkaese-pastasauce",
     "recipeName": "Zucchini-Frischkäse-Pastasauce",
     "file": "zucchini-frischkaese-pastasauce.jpg",
-    "sourceTitle": "File:Raw Zucchini Pasta (3510776769).jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raw_Zucchini_Pasta_(3510776769).jpg",
-    "author": "Kari Sullivan from Austin, TX",
-    "credit": "Raw Zucchini \"Pasta\"",
+    "sourceTitle": "File:Zucchini oil pasta.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zucchini_oil_pasta.jpg",
+    "author": "chomjong",
+    "credit": "https://www.flickr.com/photos/112024099@N03/27929166285/",
     "license": "CC BY 2.0"
   },
   {
     "recipeId": "lasagne-bolognese-mild",
     "recipeName": "Lasagne Bolognese mild",
     "file": "lasagne-bolognese-mild.jpg",
-    "sourceTitle": "File:Lasagna bolognese, February 2012.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagna_bolognese%2C_February_2012.jpg",
-    "author": "Rebecca Siegel",
-    "credit": "Flickr: Lasagna",
-    "license": "CC BY 2.0"
+    "sourceTitle": "File:Slice of Lasagna.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slice_of_Lasagna.jpg",
+    "author": "Roundhere44",
+    "credit": "Own work",
+    "license": "CC0"
   },
   {
     "recipeId": "spinat-ricotta-lasagne",
@@ -253,11 +253,11 @@
     "recipeId": "kuerbis-lasagne",
     "recipeName": "Kürbis-Lasagne",
     "file": "kuerbis-lasagne.jpg",
-    "sourceTitle": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_Lasagna_10-07_to_22_439.jpg",
-    "author": "Chris Light",
-    "credit": "Own work",
-    "license": "CC BY-SA 4.0"
+    "sourceTitle": "File:Lasagne - stonesoup.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagne_-_stonesoup.jpg",
+    "author": "jules / stonesoup",
+    "credit": "mum's lasagne",
+    "license": "CC BY 2.0"
   },
   {
     "recipeId": "nudelauflauf-tomate-mozzarella",
@@ -293,21 +293,21 @@
     "recipeId": "kartoffelgratin-mit-gemuese",
     "recipeName": "Kartoffelgratin mit Gemüse",
     "file": "kartoffelgratin-mit-gemuese.jpg",
-    "sourceTitle": "File:Potato gratin after baking.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potato_gratin_after_baking.jpg",
-    "author": "MarkTraceur",
-    "credit": "Own work",
-    "license": "CC BY-SA 3.0"
+    "sourceTitle": "File:Potato gratin with shrimp and broccoli (379175770).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potato_gratin_with_shrimp_and_broccoli_(379175770).jpg",
+    "author": "pelican from Tokyo, Japan",
+    "credit": "Potato gratin with shrimp and broccoli",
+    "license": "CC BY-SA 2.0"
   },
   {
     "recipeId": "kartoffel-haehnchen-auflauf",
     "recipeName": "Kartoffel-Hähnchen-Auflauf",
     "file": "kartoffel-haehnchen-auflauf.jpg",
-    "sourceTitle": "File:King Ranch chicken casserole.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:King_Ranch_chicken_casserole.jpg",
-    "author": "Michael Coté",
-    "credit": "Flickr: King Ranch Casserole and other delights",
-    "license": "CC BY 2.0"
+    "sourceTitle": "File:Roasted Chicken, Butterflied, on Potatoes, Baking Pan 01.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roasted_Chicken%2C_Butterflied%2C_on_Potatoes%2C_Baking_Pan_01.jpg",
+    "author": "Michael J. Bennett",
+    "credit": "Own work",
+    "license": "CC BY-SA 3.0"
   },
   {
     "recipeId": "lachs-kartoffel-auflauf",
@@ -333,11 +333,11 @@
     "recipeId": "gemuese-shepherds-pie",
     "recipeName": "Gemüse-Shepherd’s-Pie",
     "file": "gemuese-shepherds-pie.jpg",
-    "sourceTitle": "File:Granville Island Market - Shepherds pie.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granville_Island_Market_-_Shepherds_pie.jpg",
-    "author": "Joe Mabel",
-    "credit": "Own work (Original text: Photo by Joe Mabel)",
-    "license": "CC BY-SA 3.0"
+    "sourceTitle": "File:Vegetable Shepherd's Pie Vegan (3326934381).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_Shepherd's_Pie_Vegan_(3326934381).jpg",
+    "author": "Vegan Feast Catering",
+    "credit": "Vegetable Shepherd's Pie",
+    "license": "CC BY 2.0"
   },
   {
     "recipeId": "moussaka-mild",
@@ -383,10 +383,10 @@
     "recipeId": "mediterrane-haehnchen-tomaten-pfanne",
     "recipeName": "Mediterrane Hähnchen-Tomaten-Pfanne",
     "file": "mediterrane-haehnchen-tomaten-pfanne.jpg",
-    "sourceTitle": "File:Chicken cacciatore.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_cacciatore.jpg",
-    "author": "Chris Bennett",
-    "credit": "Chicken Cacciatore (Hunter Style Chicken)",
+    "sourceTitle": "File:Chicken cacciatore (cropped).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_cacciatore_(cropped).jpg",
+    "author": "Evan Joshua Swigart (TheCulinaryGeek)",
+    "credit": "File:Flickr_preppybyday_4618397089--Chicken_cacciatore.jpg",
     "license": "CC BY 2.0"
   },
   {
@@ -413,11 +413,11 @@
     "recipeId": "spinat-feta-quiche-mild",
     "recipeName": "Spinat-Feta-Quiche mild",
     "file": "spinat-feta-quiche-mild.jpg",
-    "sourceTitle": "File:Spinach quiche (4333163002).jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spinach_quiche_(4333163002).jpg",
-    "author": "Karen and Brad Emerson",
-    "credit": "Spinach quiche",
-    "license": "CC BY 2.0"
+    "sourceTitle": "File:Quiche de espinacas (Lhardy).JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quiche_de_espinacas_(Lhardy).JPG",
+    "author": "Tamorlan",
+    "credit": "Own work",
+    "license": "CC BY 3.0"
   },
   {
     "recipeId": "wrap-fuellung-haehnchen-gemuese",
