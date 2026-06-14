@@ -1,0 +1,452 @@
+[
+  {
+    "id": "wochenbett-huehnerbruehe-mit-nudeln",
+    "name": "Wochenbett-Hühnerbrühe mit Nudeln",
+    "description": "Milde Hühnerbrühe mit Nudeln, Möhren und Kräutern; als Basisgericht sehr sanft und gut portionierbar.",
+    "category": "Suppe / Brühe",
+    "image": "wochenbett-huehnerbruehe-mit-nudeln.jpg",
+    "imageSearch": "chicken noodle soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20noodle%20soup"
+  },
+  {
+    "id": "gemuesebruehe-mit-reis-und-ei",
+    "name": "Gemüsebrühe mit Reis und Ei",
+    "description": "Klare Gemüsebrühe mit Reis, Möhren und optional gestocktem Ei; leicht, warm und schnell aufgewärmt.",
+    "category": "Suppe / Brühe",
+    "image": "gemuesebruehe-mit-reis-und-ei.jpg",
+    "imageSearch": "vegetable rice soup egg",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20rice%20soup%20egg"
+  },
+  {
+    "id": "kartoffel-moehren-suppe",
+    "name": "Kartoffel-Möhren-Suppe",
+    "description": "Cremige Suppe aus Kartoffeln und Möhren; mild, sättigend und gut mit Joghurt/Kefir-Topping.",
+    "category": "Cremesuppe",
+    "image": "kartoffel-moehren-suppe.jpg",
+    "imageSearch": "potato carrot soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potato%20carrot%20soup"
+  },
+  {
+    "id": "kuerbis-kokos-suppe-mild",
+    "name": "Kürbis-Kokos-Suppe mild",
+    "description": "Weiche Kürbissuppe mit Kokosmilch, ohne Schärfe; gut für große Mengen und August/Herbst-Vorrat.",
+    "category": "Cremesuppe",
+    "image": "kuerbis-kokos-suppe-mild.jpg",
+    "imageSearch": "pumpkin coconut soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=pumpkin%20coconut%20soup"
+  },
+  {
+    "id": "tomaten-reis-suppe",
+    "name": "Tomaten-Reis-Suppe",
+    "description": "Tomatige Suppe mit Reis und milden Kräutern; mediterran, weich und gut einzufrieren.",
+    "category": "Suppe / Eintopf",
+    "image": "tomaten-reis-suppe.jpg",
+    "imageSearch": "tomato rice soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20rice%20soup"
+  },
+  {
+    "id": "zucchini-kartoffel-cremesuppe",
+    "name": "Zucchini-Kartoffel-Cremesuppe",
+    "description": "Milde grüne Cremesuppe mit Zucchini und Kartoffel; leicht, aber sättigend.",
+    "category": "Cremesuppe",
+    "image": "zucchini-kartoffel-cremesuppe.jpg",
+    "imageSearch": "zucchini potato soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20potato%20soup"
+  },
+  {
+    "id": "pastinakensuppe-mit-kartoffel",
+    "name": "Pastinakensuppe mit Kartoffel",
+    "description": "Sanfte Wurzelsuppe mit Pastinake und Kartoffel; cremig, leicht süßlich und sehr mild.",
+    "category": "Cremesuppe",
+    "image": "pastinakensuppe-mit-kartoffel.jpg",
+    "imageSearch": "parsnip potato soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=parsnip%20potato%20soup"
+  },
+  {
+    "id": "milde-minestrone-ohne-kohl",
+    "name": "Milde Minestrone ohne Kohl",
+    "description": "Italienische Gemüsesuppe mit Pasta, Tomate und mildem Gemüse; Hülsenfrüchte optional später testen.",
+    "category": "Suppe / Eintopf",
+    "image": "milde-minestrone-ohne-kohl.jpg",
+    "imageSearch": "minestrone soup",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=minestrone%20soup"
+  },
+  {
+    "id": "huehnerfrikassee-mit-reis",
+    "name": "Hühnerfrikassee mit Reis",
+    "description": "Cremiges Huhn mit Möhren, Erbsen und Reis; klassisches warmes Comfort Food.",
+    "category": "Reisgericht / Hausmannskost",
+    "image": "huehnerfrikassee-mit-reis.jpg",
+    "imageSearch": "chicken fricassee rice",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20fricassee%20rice"
+  },
+  {
+    "id": "mildes-rindergulasch-mit-kartoffeln",
+    "name": "Mildes Rindergulasch mit Kartoffeln",
+    "description": "Lang geschmortes, nicht scharfes Gulasch; gut einfrierbar, Kartoffeln ggf. frisch ergänzen.",
+    "category": "Eintopf / Fleisch",
+    "image": "mildes-rindergulasch-mit-kartoffeln.jpg",
+    "imageSearch": "beef stew potatoes",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=beef%20stew%20potatoes"
+  },
+  {
+    "id": "mediterraner-rinderschmortopf",
+    "name": "Mediterraner Rinderschmortopf",
+    "description": "Tomatiger Schmortopf mit Rind, Möhren und Kräutern; kräftig, aber nicht scharf.",
+    "category": "Eintopf / Mediterran",
+    "image": "mediterraner-rinderschmortopf.jpg",
+    "imageSearch": "mediterranean beef stew",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mediterranean%20beef%20stew"
+  },
+  {
+    "id": "haehnchen-kokos-curry-mild",
+    "name": "Hähnchen-Kokos-Curry mild",
+    "description": "Cremiges Curry mit Hähnchen, Kokosmilch und mildem Gemüse; Reis frisch oder vorgekocht dazu.",
+    "category": "Mildes Curry",
+    "image": "haehnchen-kokos-curry-mild.jpg",
+    "imageSearch": "mild chicken coconut curry",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20chicken%20coconut%20curry"
+  },
+  {
+    "id": "gelbes-gemuese-kokos-curry",
+    "name": "Gelbes Gemüse-Kokos-Curry",
+    "description": "Mildes vegetarisches Curry mit Süßkartoffel, Karotte und Zucchini; ohne Chili planen.",
+    "category": "Mildes Curry / vegetarisch",
+    "image": "gelbes-gemuese-kokos-curry.jpg",
+    "imageSearch": "yellow vegetable coconut curry",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=yellow%20vegetable%20coconut%20curry"
+  },
+  {
+    "id": "butter-chicken-mild",
+    "name": "Butter-Chicken mild",
+    "description": "Tomatig-cremiges Hähnchen ohne Schärfe; comfortig und gut mit Reis kombinierbar.",
+    "category": "Mildes Curry / Fleisch",
+    "image": "butter-chicken-mild.jpg",
+    "imageSearch": "butter chicken curry",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=butter%20chicken%20curry"
+  },
+  {
+    "id": "kokos-reis-gemuese-pfanne",
+    "name": "Kokos-Reis-Gemüse-Pfanne",
+    "description": "Sanfte Reis-Gemüse-Basis mit Kokosmilch; gut mit Ei, Huhn oder Tofu ergänzbar.",
+    "category": "Reisgericht",
+    "image": "kokos-reis-gemuese-pfanne.jpg",
+    "imageSearch": "coconut rice vegetables",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=coconut%20rice%20vegetables"
+  },
+  {
+    "id": "risi-bisi-mit-huhn",
+    "name": "Risi-Bisi mit Huhn",
+    "description": "Cremiger Reis mit Erbsen, Möhren und Hähnchen; einfach, mild und sehr babyalltagstauglich.",
+    "category": "Reisgericht",
+    "image": "risi-bisi-mit-huhn.jpg",
+    "imageSearch": "chicken rice peas",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20rice%20peas"
+  },
+  {
+    "id": "tomaten-basilikum-pastasauce",
+    "name": "Tomaten-Basilikum-Pastasauce",
+    "description": "Klassische milde Tomatensauce; gut in großen Mengen, ohne viel Knoblauch/Zwiebel möglich.",
+    "category": "Pasta-Sauce",
+    "image": "tomaten-basilikum-pastasauce.jpg",
+    "imageSearch": "tomato basil pasta sauce",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20basil%20pasta%20sauce"
+  },
+  {
+    "id": "gemuese-bolognese-mild",
+    "name": "Gemüse-Bolognese mild",
+    "description": "Tomatige Sauce mit fein geriebenem Gemüse; fleischlos, aber ohne Hülsenfrucht-Fokus.",
+    "category": "Pasta-Sauce / vegetarisch",
+    "image": "gemuese-bolognese-mild.jpg",
+    "imageSearch": "vegetable bolognese sauce",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20bolognese%20sauce"
+  },
+  {
+    "id": "klassische-bolognese-mild",
+    "name": "Klassische Bolognese mild",
+    "description": "Sanfte Hack-Tomatensauce, gut batchbar; Zwiebel/Knoblauch reduziert oder weggelassen.",
+    "category": "Pasta-Sauce / Fleisch",
+    "image": "klassische-bolognese-mild.jpg",
+    "imageSearch": "bolognese sauce",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=bolognese%20sauce"
+  },
+  {
+    "id": "lachs-tomaten-sauce-mit-zitrone",
+    "name": "Lachs-Tomaten-Sauce mit Zitrone",
+    "description": "Tomatige Pastasauce mit Lachs und Zitrone; mediterran und Julia-Zitronen-kompatibel.",
+    "category": "Pasta-Sauce / Fisch",
+    "image": "lachs-tomaten-sauce-mit-zitrone.jpg",
+    "imageSearch": "salmon tomato pasta lemon",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=salmon%20tomato%20pasta%20lemon"
+  },
+  {
+    "id": "spinat-ricotta-pastasauce",
+    "name": "Spinat-Ricotta-Pastasauce",
+    "description": "Cremige Spinat-Ricotta-Sauce; mild, weich und gut mit Tortellini oder Pasta.",
+    "category": "Pasta-Sauce / vegetarisch",
+    "image": "spinat-ricotta-pastasauce.jpg",
+    "imageSearch": "spinach ricotta pasta",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20pasta"
+  },
+  {
+    "id": "zucchini-frischkaese-pastasauce",
+    "name": "Zucchini-Frischkäse-Pastasauce",
+    "description": "Sehr milde cremige Sauce mit Zucchini und Frischkäse; schnell aufgewärmt.",
+    "category": "Pasta-Sauce / vegetarisch",
+    "image": "zucchini-frischkaese-pastasauce.jpg",
+    "imageSearch": "zucchini cream cheese pasta",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20cream%20cheese%20pasta"
+  },
+  {
+    "id": "lasagne-bolognese-mild",
+    "name": "Lasagne Bolognese mild",
+    "description": "Klassische Lasagne mit reduzierter Würzung; einfrierbarer Wochenbett-Klassiker.",
+    "category": "Lasagne / Auflauf",
+    "image": "lasagne-bolognese-mild.jpg",
+    "imageSearch": "lasagna bolognese",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=lasagna%20bolognese"
+  },
+  {
+    "id": "spinat-ricotta-lasagne",
+    "name": "Spinat-Ricotta-Lasagne",
+    "description": "Vegetarische, cremige Lasagne mit Spinat und Ricotta; mild und comfortig.",
+    "category": "Lasagne / vegetarisch",
+    "image": "spinat-ricotta-lasagne.jpg",
+    "imageSearch": "spinach ricotta lasagna",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20lasagna"
+  },
+  {
+    "id": "gemuese-lasagne-mediterran",
+    "name": "Gemüse-Lasagne mediterran",
+    "description": "Tomatenbasierte Lasagne mit Zucchini, Aubergine und Käse; gut als große Form.",
+    "category": "Lasagne / vegetarisch",
+    "image": "gemuese-lasagne-mediterran.jpg",
+    "imageSearch": "vegetable lasagna",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetable%20lasagna"
+  },
+  {
+    "id": "kuerbis-lasagne",
+    "name": "Kürbis-Lasagne",
+    "description": "Weiche, saisonale Lasagne mit Kürbis und Käse; cremig und nicht scharf.",
+    "category": "Lasagne / Ofengericht",
+    "image": "kuerbis-lasagne.jpg",
+    "imageSearch": "pumpkin lasagna",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=pumpkin%20lasagna"
+  },
+  {
+    "id": "nudelauflauf-tomate-mozzarella",
+    "name": "Nudelauflauf Tomate-Mozzarella",
+    "description": "Mediterraner Pastaauflauf mit Tomate, Mozzarella und mildem Gemüse.",
+    "category": "Auflauf / Pasta",
+    "image": "nudelauflauf-tomate-mozzarella.jpg",
+    "imageSearch": "tomato mozzarella pasta bake",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tomato%20mozzarella%20pasta%20bake"
+  },
+  {
+    "id": "gnocchi-auflauf-tomate-kaese",
+    "name": "Gnocchi-Auflauf Tomate-Käse",
+    "description": "Convenience-freundlich mit fertigen Gnocchi, Tomatensauce und Käse; sehr wochenbettpraktisch.",
+    "category": "Auflauf / Gnocchi",
+    "image": "gnocchi-auflauf-tomate-kaese.jpg",
+    "imageSearch": "gnocchi tomato cheese bake",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=gnocchi%20tomato%20cheese%20bake"
+  },
+  {
+    "id": "tortellini-auflauf-mit-spinat",
+    "name": "Tortellini-Auflauf mit Spinat",
+    "description": "Fertige Tortellini, Spinat und cremige Sauce; minimaler Aufwand nach dem Auftauen.",
+    "category": "Auflauf / Convenience",
+    "image": "tortellini-auflauf-mit-spinat.jpg",
+    "imageSearch": "tortellini spinach bake",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=tortellini%20spinach%20bake"
+  },
+  {
+    "id": "kartoffelgratin-mit-gemuese",
+    "name": "Kartoffelgratin mit Gemüse",
+    "description": "Cremiger Kartoffelauflauf mit mildem Gemüse; eventuell Sauce extra cremig halten.",
+    "category": "Auflauf / Kartoffel",
+    "image": "kartoffelgratin-mit-gemuese.jpg",
+    "imageSearch": "potato gratin vegetables",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potato%20gratin%20vegetables"
+  },
+  {
+    "id": "kartoffel-haehnchen-auflauf",
+    "name": "Kartoffel-Hähnchen-Auflauf",
+    "description": "Kartoffeln, Hähnchen und milde Sahnesauce; sättigend und klassisch comfortig.",
+    "category": "Auflauf / Fleisch",
+    "image": "kartoffel-haehnchen-auflauf.jpg",
+    "imageSearch": "chicken potato casserole",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20potato%20casserole"
+  },
+  {
+    "id": "lachs-kartoffel-auflauf",
+    "name": "Lachs-Kartoffel-Auflauf",
+    "description": "Milder Auflauf mit Kartoffeln, Lachs und Dill/Zitrone; gut mit Joghurt-Dip.",
+    "category": "Auflauf / Fisch",
+    "image": "lachs-kartoffel-auflauf.jpg",
+    "imageSearch": "salmon potato casserole",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=salmon%20potato%20casserole"
+  },
+  {
+    "id": "shepherds-pie-mild",
+    "name": "Shepherd’s Pie mild",
+    "description": "Hackfleisch-Gemüse-Basis mit Kartoffelhaube; sehr gut portionierbar und warm.",
+    "category": "Ofengericht / Fleisch",
+    "image": "shepherds-pie-mild.jpg",
+    "imageSearch": "shepherd's pie",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=shepherd%27s%20pie"
+  },
+  {
+    "id": "gemuese-shepherds-pie",
+    "name": "Gemüse-Shepherd’s-Pie",
+    "description": "Vegetarische Variante mit Gemüsefüllung und Kartoffelhaube; Hülsenfrüchte optional weglassen.",
+    "category": "Ofengericht / vegetarisch",
+    "image": "gemuese-shepherds-pie.jpg",
+    "imageSearch": "vegetarian shepherd's pie",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=vegetarian%20shepherd%27s%20pie"
+  },
+  {
+    "id": "moussaka-mild",
+    "name": "Moussaka mild",
+    "description": "Griechischer Auberginen-Kartoffel-Auflauf mit Hack und Béchamel; nicht scharf planen.",
+    "category": "Auflauf / Griechisch",
+    "image": "moussaka-mild.jpg",
+    "imageSearch": "moussaka",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=moussaka"
+  },
+  {
+    "id": "zucchini-hack-auflauf",
+    "name": "Zucchini-Hack-Auflauf",
+    "description": "Saftiger Auflauf mit Zucchini, Hack, Tomate und Käse; mild und nicht trocken.",
+    "category": "Auflauf / Fleisch",
+    "image": "zucchini-hack-auflauf.jpg",
+    "imageSearch": "zucchini beef casserole",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=zucchini%20beef%20casserole"
+  },
+  {
+    "id": "milde-cannelloni-ricotta-spinat",
+    "name": "Milde Cannelloni Ricotta-Spinat",
+    "description": "Gefüllte Pasta mit Ricotta-Spinat und Tomatensauce; sehr gut als Ofenportion.",
+    "category": "Ofenpasta / vegetarisch",
+    "image": "milde-cannelloni-ricotta-spinat.jpg",
+    "imageSearch": "spinach ricotta cannelloni",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20ricotta%20cannelloni"
+  },
+  {
+    "id": "cannelloni-hack-tomate-mild",
+    "name": "Cannelloni Hack-Tomate mild",
+    "description": "Gefüllte Pasta mit Hackfleisch und milder Tomatensauce; einfrierbar und sättigend.",
+    "category": "Ofenpasta / Fleisch",
+    "image": "cannelloni-hack-tomate-mild.jpg",
+    "imageSearch": "beef cannelloni",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=beef%20cannelloni"
+  },
+  {
+    "id": "mediterrane-haehnchen-tomaten-pfanne",
+    "name": "Mediterrane Hähnchen-Tomaten-Pfanne",
+    "description": "Hähnchen in Tomaten-Oliven-Sauce; Oliven optional, Reis oder Brot dazu.",
+    "category": "Pfannengericht / Mediterran",
+    "image": "mediterrane-haehnchen-tomaten-pfanne.jpg",
+    "imageSearch": "mediterranean chicken tomato skillet",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mediterranean%20chicken%20tomato%20skillet"
+  },
+  {
+    "id": "ofen-haehnchen-mit-kartoffeln-und-zitrone",
+    "name": "Ofen-Hähnchen mit Kartoffeln und Zitrone",
+    "description": "Zitroniges, mildes Ofengericht; eher vorgegart einfrieren oder als Marinaden-Kit.",
+    "category": "Ofengericht / Huhn",
+    "image": "ofen-haehnchen-mit-kartoffeln-und-zitrone.jpg",
+    "imageSearch": "lemon chicken potatoes",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=lemon%20chicken%20potatoes"
+  },
+  {
+    "id": "putenbaellchen-in-tomatensauce",
+    "name": "Putenbällchen in Tomatensauce",
+    "description": "Milde Fleischbällchen in Tomatensauce; gut mit Pasta, Reis oder Brot.",
+    "category": "Sauce / Fleisch",
+    "image": "putenbaellchen-in-tomatensauce.jpg",
+    "imageSearch": "turkey meatballs tomato sauce",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=turkey%20meatballs%20tomato%20sauce"
+  },
+  {
+    "id": "spinat-feta-quiche-mild",
+    "name": "Spinat-Feta-Quiche mild",
+    "description": "Vegetarische Quiche mit Spinat und Feta; gut stückweise als Snack/Hauptmahlzeit.",
+    "category": "Herzhafter Snack / vegetarisch",
+    "image": "spinat-feta-quiche-mild.jpg",
+    "imageSearch": "spinach feta quiche",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=spinach%20feta%20quiche"
+  },
+  {
+    "id": "wrap-fuellung-haehnchen-gemuese",
+    "name": "Wrap-Füllung Hähnchen-Gemüse",
+    "description": "Vorgekochte milde Füllung für Tortillas; frisch mit Joghurt/Käse kombinieren.",
+    "category": "Wrap-Füllung",
+    "image": "wrap-fuellung-haehnchen-gemuese.jpg",
+    "imageSearch": "chicken vegetable wrap filling",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=chicken%20vegetable%20wrap%20filling"
+  },
+  {
+    "id": "mildes-bohnen-chili-klein-testen",
+    "name": "Mildes Bohnen-Chili klein testen",
+    "description": "Tomatiges Chili mit wenig Bohnen und ohne Schärfe; nur als Testkandidat, nicht erster Kern.",
+    "category": "Eintopf / Testgericht",
+    "image": "mildes-bohnen-chili-klein-testen.jpg",
+    "imageSearch": "mild chili con carne",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20chili%20con%20carne"
+  },
+  {
+    "id": "linsen-dal-mild-klein-testen",
+    "name": "Linsen-Dal mild klein testen",
+    "description": "Cremiges gelbes Dal ohne Chili; nährstoffreich, aber wegen Verträglichkeit kleine Testportion.",
+    "category": "Curry / Testgericht",
+    "image": "linsen-dal-mild-klein-testen.jpg",
+    "imageSearch": "mild lentil dal",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=mild%20lentil%20dal"
+  },
+  {
+    "id": "kartoffeln-mit-fruehlingsquark",
+    "name": "Kartoffeln mit Frühlingsquark",
+    "description": "Euer emotionaler Anker: Kartoffeln frisch kochen, Quark/Kräuter vorbereiten.",
+    "category": "Frisches Schnellgericht",
+    "image": "kartoffeln-mit-fruehlingsquark.jpg",
+    "imageSearch": "potatoes herb quark",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=potatoes%20herb%20quark"
+  },
+  {
+    "id": "overnight-oats-zitrone-beeren",
+    "name": "Overnight Oats Zitrone-Beeren",
+    "description": "Kühlschrankfrühstück mit Hafer, Joghurt/Kefir, Zitrone und Beeren.",
+    "category": "Frühstück / Snack",
+    "image": "overnight-oats-zitrone-beeren.jpg",
+    "imageSearch": "overnight oats berries lemon",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=overnight%20oats%20berries%20lemon"
+  },
+  {
+    "id": "porridge-mix-apfel-zimt",
+    "name": "Porridge-Mix Apfel-Zimt",
+    "description": "Trockene Portionsmischung aus Hafer, Nüssen/Samen und Apfel-Zimt; nur heiß aufgießen.",
+    "category": "Frühstück / Vorrat",
+    "image": "porridge-mix-apfel-zimt.jpg",
+    "imageSearch": "apple cinnamon porridge",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=apple%20cinnamon%20porridge"
+  },
+  {
+    "id": "smoothie-packs-beere-kefir",
+    "name": "Smoothie-Packs Beere-Kefir",
+    "description": "TK-Beerenportionen für Mixer, später mit Kefir/Joghurt ergänzen.",
+    "category": "Snack / Getränk",
+    "image": "smoothie-packs-beere-kefir.jpg",
+    "imageSearch": "berry kefir smoothie",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=berry%20kefir%20smoothie"
+  },
+  {
+    "id": "herzhafte-eiermuffins-mild",
+    "name": "Herzhafte Eiermuffins mild",
+    "description": "Mini-Frittatas mit Ei, Käse und Gemüse; gut als proteinreicher Snack.",
+    "category": "Snack / Ei",
+    "image": "herzhafte-eiermuffins-mild.jpg",
+    "imageSearch": "egg muffins vegetables",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=egg%20muffins%20vegetables"
+  }
+]
