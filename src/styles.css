@@ -120,6 +120,7 @@ button {
 }
 
 .deck-area {
+  position: relative;
   min-height: 0;
   display: grid;
   place-items: center;
@@ -143,6 +144,71 @@ button {
 
 .recipe-card:active {
   cursor: grabbing;
+}
+
+.decision-feedback {
+  position: absolute;
+  width: min(100%, 430px);
+  height: min(68dvh, 640px);
+  min-height: 460px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 5;
+  box-shadow: inset 0 0 0 999px var(--feedback-wash);
+}
+
+.decision-feedback::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.22), transparent 42%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.14), transparent 58%);
+}
+
+.decision-feedback-nope {
+  --feedback-color: #d64a5a;
+  --feedback-border: #ee9ca6;
+  --feedback-wash: rgba(214, 74, 90, 0.34);
+}
+
+.decision-feedback-like {
+  --feedback-color: #2f9a68;
+  --feedback-border: #8bd6b4;
+  --feedback-wash: rgba(47, 154, 104, 0.34);
+}
+
+.decision-feedback-superlike {
+  --feedback-color: #2f79d1;
+  --feedback-border: #95bfef;
+  --feedback-wash: rgba(47, 121, 209, 0.36);
+}
+
+.decision-feedback-badge {
+  position: relative;
+  min-width: 150px;
+  padding: 14px 18px;
+  border: 2px solid var(--feedback-border);
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--feedback-color);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.decision-feedback-badge svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2.8;
 }
 
 .recipe-image {
@@ -317,7 +383,8 @@ button {
     height: 39px;
   }
 
-  .recipe-card {
+  .recipe-card,
+  .decision-feedback {
     min-height: 430px;
     height: 66dvh;
   }

@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, type PanInfo, type Variants } from "framer-motion";
-import { Heart, RotateCcw, Share2, Star, X } from "lucide-react";
+import { Heart, RotateCcw, Share2, Star, X, type LucideIcon } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import recipesJson from "./data/recipes.json";
 import {
@@ -24,6 +24,15 @@ const cardVariants: Variants = {
     rotate: decision === "like" ? 18 : decision === "nope" ? -18 : 0,
     scale: 0.92,
   }),
+};
+
+const decisionFeedback: Record<
+  SwipeDecision,
+  { label: string; Icon: LucideIcon }
+> = {
+  nope: { label: "Nein", Icon: X },
+  like: { label: "Ja", Icon: Heart },
+  superlike: { label: "Superlike", Icon: Star },
 };
 
 interface PersistedState {
@@ -98,9 +107,14 @@ function createDownloadFallback(text: string): void {
 export default function App() {
   const [state, setState] = useState<PersistedState>(() => readPersistedState());
   const [lastDecision, setLastDecision] = useState<SwipeDecision | null>(null);
+  const [feedbackDecision, setFeedbackDecision] = useState<SwipeDecision | null>(
+    null,
+  );
   const [toast, setToast] = useState<string | null>(null);
 
   const activeRecipe = recipes[state.cursor] ?? recipes[0];
+  const feedback = feedbackDecision ? decisionFeedback[feedbackDecision] : null;
+  const FeedbackIcon = feedback?.Icon;
   const counts = useMemo(
     () => countResponses(recipes, state.responses),
     [state.responses],
@@ -110,6 +124,15 @@ export default function App() {
   useEffect(() => {
     window.localStorage.setItem(storageKey, JSON.stringify(state));
   }, [state]);
+
+  useEffect(() => {
+    if (!feedbackDecision) {
+      return undefined;
+    }
+
+    const timeoutId = window.setTimeout(() => setFeedbackDecision(null), 560);
+    return () => window.clearTimeout(timeoutId);
+  }, [feedbackDecision]);
 
   useEffect(() => {
     if (!toast) {
@@ -126,6 +149,7 @@ export default function App() {
         return;
       }
 
+      setFeedbackDecision(decision);
       setLastDecision(decision);
       setState((currentState) => {
         const { nextIndex, completedCycle } = advanceCursor(
@@ -230,6 +254,7 @@ export default function App() {
     }
 
     setLastDecision(null);
+    setFeedbackDecision(null);
     setState(emptyState);
     setToast("Antworten wurden gelöscht.");
   }, [counts.answered]);
@@ -302,6 +327,25 @@ export default function App() {
               <p>{activeRecipe.description}</p>
             </div>
           </motion.article>
+        </AnimatePresence>
+
+        <AnimatePresence>
+          {feedbackDecision && feedback && FeedbackIcon && (
+            <motion.div
+              key={feedbackDecision}
+              className={`decision-feedback decision-feedback-${feedbackDecision}`}
+              initial={{ opacity: 0, scale: 0.92 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 1.04 }}
+              transition={{ duration: 0.18, ease: "easeOut" }}
+              aria-hidden="true"
+            >
+              <div className="decision-feedback-badge">
+                <FeedbackIcon aria-hidden="true" />
+                <span>{feedback.label}</span>
+              </div>
+            </motion.div>
+          )}
         </AnimatePresence>
       </section>
 
