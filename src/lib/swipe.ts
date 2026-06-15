@@ -77,10 +77,14 @@ export function countResponses(
   return counts;
 }
 
-export function createExportText(recipes: Recipe[], responses: SwipeResponses): string {
+export function createExportText(
+  recipes: Recipe[],
+  responses: SwipeResponses,
+  title = "Wochenbett Tinder Ergebnis",
+): string {
   const counts = countResponses(recipes, responses);
   const lines = [
-    "Wochenbett Tinder Ergebnis",
+    title,
     `Bewertet: ${counts.answered}/${recipes.length}`,
     `Superlikes: ${counts.superlike}`,
     `Ja, gerne: ${counts.like}`,

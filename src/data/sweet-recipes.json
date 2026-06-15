@@ -1,0 +1,272 @@
+[
+  {
+    "id": "klassischer-milchreis-mit-zimt-zucker",
+    "name": "Klassischer Milchreis mit Zimt-Zucker",
+    "description": "Cremiger Milchreis als warmer Wochenbett-Klassiker; gut frisch oder vorgekocht aus dem Kühlschrank.",
+    "category": "Milchreis / süße Mahlzeit",
+    "image": "klassischer-milchreis-mit-zimt-zucker.jpg",
+    "imageSearch": "rice pudding cinnamon sugar",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=cremiger+Milchreis+Zimt+Zucker"
+  },
+  {
+    "id": "milchreis-mit-kirschkompott",
+    "name": "Milchreis mit Kirschkompott",
+    "description": "Milchreis mit warmen Kirschen; comfortig, fruchtig und gut als Dessertportion vorzubereiten.",
+    "category": "Milchreis / Kompott",
+    "image": "milchreis-mit-kirschkompott.jpg",
+    "imageSearch": "rice pudding cherry compote",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Milchreis+mit+Kirschkompott"
+  },
+  {
+    "id": "kokosmilchreis-mit-beeren",
+    "name": "Kokosmilchreis mit Beeren",
+    "description": "Milchreis mit Kokosmilch und Beerengrütze; schmeckt warm oder kalt und passt gut ins Wochenbett.",
+    "category": "Milchreis / fruchtig",
+    "image": "kokosmilchreis-mit-beeren.jpg",
+    "imageSearch": "coconut rice pudding berries",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Kokosmilchreis+mit+Beeren"
+  },
+  {
+    "id": "ofen-milchreis-mit-apfel-zimt",
+    "name": "Ofen-Milchreis mit Apfel-Zimt",
+    "description": "Milchreis aus dem Ofen mit Äpfeln und Zimt; wenig Rühren, gut als große Form planbar.",
+    "category": "Ofen-Dessert / Milchreis",
+    "image": "ofen-milchreis-mit-apfel-zimt.jpg",
+    "imageSearch": "baked rice pudding apple cinnamon",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Ofenmilchreis+Apfel+Zimt"
+  },
+  {
+    "id": "milchreis-auflauf-mit-pflaumen",
+    "name": "Milchreis-Auflauf mit Pflaumen",
+    "description": "Gebackener Milchreis mit Pflaumen oder Zwetschgen; eher süße Hauptmahlzeit als Mini-Dessert.",
+    "category": "Auflauf / süß",
+    "image": "milchreis-auflauf-mit-pflaumen.jpg",
+    "imageSearch": "baked rice pudding plums",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Milchreisauflauf+Pflaumen"
+  },
+  {
+    "id": "crepes-mit-zitrone-und-zucker",
+    "name": "Crêpes mit Zitrone und Zucker",
+    "description": "Dünne Crêpes mit Zitronensaft und Zucker; Julia-Zitronen-kompatibel und schnell frisch gemacht.",
+    "category": "Crêpes / frisch",
+    "image": "crepes-mit-zitrone-und-zucker.jpg",
+    "imageSearch": "crepes lemon sugar",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Cr%C3%AApes+Zitrone+Zucker"
+  },
+  {
+    "id": "crepes-mit-apfelmus-und-zimt",
+    "name": "Crêpes mit Apfelmus und Zimt",
+    "description": "Milde Crêpes mit Apfelmus; gut für süßen Hunger ohne schweres Dessertgefühl.",
+    "category": "Crêpes / Frucht",
+    "image": "crepes-mit-apfelmus-und-zimt.jpg",
+    "imageSearch": "crepes applesauce cinnamon",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Cr%C3%AApes+Apfelmus+Zimt"
+  },
+  {
+    "id": "crepes-mit-quark-beeren-fuellung",
+    "name": "Crêpes mit Quark-Beeren-Füllung",
+    "description": "Weiche Crêpes mit Quark, Beeren und etwas Zitrone; frisch, cremig und sättigend.",
+    "category": "Crêpes / Quark",
+    "image": "crepes-mit-quark-beeren-fuellung.jpg",
+    "imageSearch": "crepes quark berries",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Cr%C3%AApes+Quark+Beeren"
+  },
+  {
+    "id": "gefuellte-crepes-roellchen-mit-nutella-banane",
+    "name": "Gefüllte Crêpes-Röllchen mit Nutella-Banane",
+    "description": "Süßes Dessert-Röllchen für echte „Schweinezeug“-Momente; gut frisch oder vorbereitet.",
+    "category": "Crêpes / Dessert",
+    "image": "gefuellte-crepes-roellchen-mit-nutella-banane.jpg",
+    "imageSearch": "nutella banana crepes",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Nutella+Banane+Cr%C3%AApes"
+  },
+  {
+    "id": "crepes-auflauf-mit-vanillequark",
+    "name": "Crêpes-Auflauf mit Vanillequark",
+    "description": "Gefüllte Crêpes aus der Auflaufform, mit Vanillequark oder Topfen; gut als Süßspeisen-Batch.",
+    "category": "Crêpes-Auflauf",
+    "image": "crepes-auflauf-mit-vanillequark.jpg",
+    "imageSearch": "baked crepes vanilla quark",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Cr%C3%AApes+Auflauf+Vanillequark"
+  },
+  {
+    "id": "tiramisu-ohne-ei-und-alkohol",
+    "name": "Tiramisu ohne Ei und Alkohol",
+    "description": "Klassische Tiramisu-Richtung mit Mascarpone, Kaffee/Kakao und Löffelbiskuit, aber wochenbettfreundlicher geplant.",
+    "category": "Tiramisu / Dessert",
+    "image": "tiramisu-ohne-ei-und-alkohol.jpg",
+    "imageSearch": "tiramisu no eggs no alcohol",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Tiramisu+ohne+Ei+ohne+Alkohol"
+  },
+  {
+    "id": "erdbeer-tiramisu-ohne-ei",
+    "name": "Erdbeer-Tiramisu ohne Ei",
+    "description": "Fruchtige Tiramisu-Variante mit Erdbeeren, Mascarpone/Quark und Löffelbiskuit.",
+    "category": "Tiramisu / fruchtig",
+    "image": "erdbeer-tiramisu-ohne-ei.jpg",
+    "imageSearch": "strawberry tiramisu",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Erdbeer+Tiramisu+ohne+Ei"
+  },
+  {
+    "id": "zitronen-tiramisu",
+    "name": "Zitronen-Tiramisu",
+    "description": "Helles, zitroniges Schichtdessert mit Mascarpone/Quark; sehr passend zu Julias Zitronen-Liebe.",
+    "category": "Tiramisu / Zitrone",
+    "image": "zitronen-tiramisu.jpg",
+    "imageSearch": "lemon tiramisu",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Zitronen+Tiramisu"
+  },
+  {
+    "id": "himbeer-tiramisu-im-glas",
+    "name": "Himbeer-Tiramisu im Glas",
+    "description": "Kleine Gläser mit Himbeeren, Creme und Biskuit; gut portionierbar und hübsch für die Swipe-App.",
+    "category": "Dessert im Glas",
+    "image": "himbeer-tiramisu-im-glas.jpg",
+    "imageSearch": "raspberry tiramisu glass",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Himbeer+Tiramisu+im+Glas"
+  },
+  {
+    "id": "apfel-zimt-tiramisu",
+    "name": "Apfel-Zimt-Tiramisu",
+    "description": "Herbstliche Tiramisu-Variante mit Apfelkompott, Zimt und Mascarponecreme.",
+    "category": "Tiramisu / Apfel",
+    "image": "apfel-zimt-tiramisu.jpg",
+    "imageSearch": "apple cinnamon tiramisu",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Apfel+Zimt+Tiramisu"
+  },
+  {
+    "id": "kaiserschmarrn-mit-apfelmus",
+    "name": "Kaiserschmarrn mit Apfelmus",
+    "description": "Süße, warme Hauptmahlzeit; gut als Teig-/Portionsidee, am besten frisch ausgebacken.",
+    "category": "Süße Hauptmahlzeit",
+    "image": "kaiserschmarrn-mit-apfelmus.jpg",
+    "imageSearch": "kaiserschmarrn applesauce",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Kaiserschmarrn+mit+Apfelmus"
+  },
+  {
+    "id": "griessbrei-mit-himbeersauce",
+    "name": "Grießbrei mit Himbeersauce",
+    "description": "Weich, warm, schnell und mild; sehr wochenbettkompatibles Süßgericht.",
+    "category": "Süßspeise / Brei",
+    "image": "griessbrei-mit-himbeersauce.jpg",
+    "imageSearch": "semolina pudding raspberry sauce",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Grie%C3%9Fbrei+mit+Himbeersauce"
+  },
+  {
+    "id": "vanillepudding-mit-kirschgruetze",
+    "name": "Vanillepudding mit Kirschgrütze",
+    "description": "Klassischer Pudding plus Frucht; gut in Gläsern vorbereitbar.",
+    "category": "Pudding / Dessert",
+    "image": "vanillepudding-mit-kirschgruetze.jpg",
+    "imageSearch": "vanilla pudding cherry compote",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Vanillepudding+Kirschgr%C3%BCtze"
+  },
+  {
+    "id": "schokopudding-mit-sahne",
+    "name": "Schokopudding mit Sahne",
+    "description": "Einfacher, emotionaler Dessertklassiker; gut in kleinen Kühlschrankportionen.",
+    "category": "Pudding / Schokolade",
+    "image": "schokopudding-mit-sahne.jpg",
+    "imageSearch": "chocolate pudding whipped cream",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Schokopudding+mit+Sahne"
+  },
+  {
+    "id": "panna-cotta-mit-beeren",
+    "name": "Panna Cotta mit Beeren",
+    "description": "Cremiges Kühlschrankdessert mit Beerensauce; gut als kleine Belohnungsportion.",
+    "category": "Dessert im Glas",
+    "image": "panna-cotta-mit-beeren.jpg",
+    "imageSearch": "panna cotta berries",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Panna+Cotta+mit+Beeren"
+  },
+  {
+    "id": "mascarpone-quark-creme-mit-fruechten",
+    "name": "Mascarpone-Quark-Creme mit Früchten",
+    "description": "Schnelles Schichtdessert aus Quark, Mascarpone, Früchten und Kekskrümeln.",
+    "category": "Dessert im Glas",
+    "image": "mascarpone-quark-creme-mit-fruechten.jpg",
+    "imageSearch": "mascarpone quark cream fruit dessert",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Mascarpone+Quark+Creme+Fr%C3%BCchte"
+  },
+  {
+    "id": "kaesekuchen-im-glas",
+    "name": "Käsekuchen im Glas",
+    "description": "Kleine Cheesecake-Gläser mit Keksboden und Quark-/Frischkäsecreme; gut vorzubereiten.",
+    "category": "Dessert im Glas / Käsekuchen",
+    "image": "kaesekuchen-im-glas.jpg",
+    "imageSearch": "cheesecake in a glass",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=K%C3%A4sekuchen+im+Glas"
+  },
+  {
+    "id": "mini-kaesekuchen-muffins",
+    "name": "Mini-Käsekuchen-Muffins",
+    "description": "Kleine gebackene Käsekuchenportionen; gut einfrierbar und schnell snackbar.",
+    "category": "Gebäck / Käsekuchen",
+    "image": "mini-kaesekuchen-muffins.jpg",
+    "imageSearch": "mini cheesecake muffins",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Mini+Cheesecake+Muffins"
+  },
+  {
+    "id": "brownies-mit-walnuessen",
+    "name": "Brownies mit Walnüssen",
+    "description": "Dicht, schokoladig, gut einfrierbar; echtes „Schweinezeug“ in kleinen Stücken.",
+    "category": "Gebäck / Schokolade",
+    "image": "brownies-mit-walnuessen.jpg",
+    "imageSearch": "walnut brownies",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Walnuss+Brownies"
+  },
+  {
+    "id": "blondies-mit-weisser-schokolade",
+    "name": "Blondies mit weißer Schokolade",
+    "description": "Brownie-Alternative mit weißer Schokolade; süß, weich und gut portionierbar.",
+    "category": "Gebäck / Schokolade",
+    "image": "blondies-mit-weisser-schokolade.jpg",
+    "imageSearch": "white chocolate blondies",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=White+Chocolate+Blondies"
+  },
+  {
+    "id": "hafer-schoko-cookies",
+    "name": "Hafer-Schoko-Cookies",
+    "description": "Haferige Cookies mit Schokolade; gut als Snackdose oder Tiefkühl-Teigportion.",
+    "category": "Cookie / Snack",
+    "image": "hafer-schoko-cookies.jpg",
+    "imageSearch": "oat chocolate cookies",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Hafer+Schoko+Cookies"
+  },
+  {
+    "id": "zimtschnecken-zum-aufbacken",
+    "name": "Zimtschnecken zum Aufbacken",
+    "description": "Hefeschnecken mit Zimtfüllung; roh oder fertig gebacken einfrierbar, später aufbacken.",
+    "category": "Hefegebäck / süß",
+    "image": "zimtschnecken-zum-aufbacken.jpg",
+    "imageSearch": "fresh cinnamon rolls",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Zimtschnecken+frisch+gebacken"
+  },
+  {
+    "id": "apfel-crumble",
+    "name": "Apfel-Crumble",
+    "description": "Warmer Obst-Crumble mit Streuseln; gut als Ofen-Dessert mit TK-Obst planbar.",
+    "category": "Ofen-Dessert / Frucht",
+    "image": "apfel-crumble.jpg",
+    "imageSearch": "apple crumble",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Apfel+Crumble"
+  },
+  {
+    "id": "beeren-crumble-mit-vanillesauce",
+    "name": "Beeren-Crumble mit Vanillesauce",
+    "description": "Fruchtiger Crumble aus TK-Beeren und Streuseln; wenig Aufwand, sehr dessertig.",
+    "category": "Ofen-Dessert / Beeren",
+    "image": "beeren-crumble-mit-vanillesauce.jpg",
+    "imageSearch": "berry crumble vanilla sauce",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=Beeren+Crumble+Vanillesauce"
+  },
+  {
+    "id": "french-toast-auflauf-mit-beeren",
+    "name": "French-Toast-Auflauf mit Beeren",
+    "description": "Süßer Frühstücks-/Dessertauflauf aus Brot, Milch, Ei und Beeren; gut für Wochenendgefühl.",
+    "category": "Süßer Auflauf",
+    "image": "french-toast-auflauf-mit-beeren.jpg",
+    "imageSearch": "french toast casserole berries",
+    "imageSourceUrl": "https://www.google.com/search?tbm=isch&q=French+Toast+Casserole+Berries"
+  }
+]

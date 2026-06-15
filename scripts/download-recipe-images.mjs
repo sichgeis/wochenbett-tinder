@@ -5,7 +5,10 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const recipesPath = path.join(rootDir, "src", "data", "recipes.json");
+const recipeDataPaths = [
+  path.join(rootDir, "src", "data", "recipes.json"),
+  path.join(rootDir, "src", "data", "sweet-recipes.json"),
+];
 const imageSourcesPath = path.join(rootDir, "scripts", "recipe-image-sources.json");
 const outputDir = path.join(rootDir, "public", "recipes");
 const creditsPath = path.join(outputDir, "credits.json");
@@ -13,9 +16,13 @@ const userAgent = "wochenbett-tinder/0.1 (local static app image preparation)";
 const execFileAsync = promisify(execFile);
 const rasterMimeTypes = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const fileTitleOverrides = {
+  "blondies-mit-weisser-schokolade": "File:Who doesn't love peanut butter cups?.jpg",
+  "crepes-auflauf-mit-vanillequark": "File:A dessert crêpe with candied nuts and whipped cream.jpeg",
+  "crepes-mit-apfelmus-und-zimt": "File:Crépe Suzette à la vanille.jpg",
   "gemuesebruehe-mit-reis-und-ei": "File:Egg Soup-Gyeranguk- (6084411125).jpg",
   "gemuese-lasagne-mediterran": "File:Vegetable Lasagna 10-07 to 22 439.jpg",
   "gemuese-shepherds-pie": "File:Vegetable Shepherd's Pie Vegan (3326934381).jpg",
+  "hafer-schoko-cookies": "File:Baking oatmeal chocolate chip cookies 79.jpg",
   "herzhafte-eiermuffins-mild": "File:Frittata.jpg",
   "huehnerfrikassee-mit-reis": "File:Chicken Fricasse.jpg",
   "kartoffel-haehnchen-auflauf": "File:Roasted Chicken, Butterflied, on Potatoes, Baking Pan 01.jpg",
@@ -29,6 +36,7 @@ const fileTitleOverrides = {
   "milde-minestrone-ohne-kohl": "File:Minestrone.jpg",
   "mildes-rindergulasch-mit-kartoffeln": "File:Beef stew with potatoes and carrots - Massachusetts.jpg",
   "mildes-bohnen-chili-klein-testen": "File:Chili con carne (4431800858).jpg",
+  "mini-kaesekuchen-muffins": "File:Mini cheesecake.jpg",
   "moussaka-mild": "File:Mousakas.jpg",
   "nudelauflauf-tomate-mozzarella": "File:Pasta bake.jpg",
   "smoothie-packs-beere-kefir": "File:Healthy Blueberry Smoothie.jpg",
@@ -37,6 +45,7 @@ const fileTitleOverrides = {
   "tomaten-basilikum-pastasauce": "File:Spaghetti al Pomodoro.JPG",
   "zucchini-frischkaese-pastasauce": "File:Zucchini oil pasta.jpg",
   "zucchini-hack-auflauf": "File:Sandal sefasi.jpg",
+  "zitronen-tiramisu": "File:レモン商品2015-10.jpg",
 };
 const searchStopWords = new Set([
   "and",
@@ -54,7 +63,13 @@ const searchStopWords = new Set([
   "with",
 ]);
 
-const allRecipes = JSON.parse(await readFile(recipesPath, "utf8"));
+const allRecipes = (
+  await Promise.all(
+    recipeDataPaths.map(async (recipeDataPath) =>
+      JSON.parse(await readFile(recipeDataPath, "utf8")),
+    ),
+  )
+).flat();
 const imageSources = JSON.parse(await readFile(imageSourcesPath, "utf8"));
 const onlyArgument = process.argv.find((argument) => argument.startsWith("--only="));
 const selectedRecipeIds = onlyArgument
@@ -341,7 +356,7 @@ async function findRecipeImage(recipe) {
 async function downloadImage(url, filePath, preferredMime) {
   const response = await fetch(url, {
     headers: {
-      Accept: "image/avif,image/webp,image/png,image/jpeg,image/*,*/*;q=0.8",
+      Accept: "image/jpeg,image/png,image/webp,image/gif,image/*;q=0.8,*/*;q=0.5",
       "User-Agent": userAgent,
     },
   });

@@ -479,5 +479,113 @@
     "sourceUrl": "https://www.simplyquinoa.com/peanut-butter-energy-bites/",
     "searchQuery": "oat energy bites nut butter recipe food photography close up appetizing",
     "notes": "Peanut butter oat energy bites, exact no-bake snack match."
+  },
+  "milchreis-mit-kirschkompott": {
+    "imageUrl": "https://www.edeka.de/uploads/rezepte/rez-edeka-milchreis-rezept-i-p-1-1-bw.jpg",
+    "sourceUrl": "https://www.edeka.de/rezeptwelt/rezepte/milchreis/",
+    "searchQuery": "Milchreis Kirschkompott Rezept Bild appetitlich",
+    "notes": "Milchreis with cherry compote and cinnamon sugar, much closer than the generic Commons rice pudding."
+  },
+  "kokosmilchreis-mit-beeren": {
+    "imageUrl": "https://cdn.gutekueche.de/media/recipe/1957/resp/kokos-milchreis___default_750_500.jpg",
+    "sourceUrl": "https://www.gutekueche.de/milchreis-schonkost-rezepte",
+    "searchQuery": "Kokosmilchreis mit Beeren Rezept Bild appetitlich",
+    "notes": "Creamy coconut-style rice pudding with bright fruit topping."
+  },
+  "ofen-milchreis-mit-apfel-zimt": {
+    "imageUrl": "https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/1536_1152/public/2025-02/apfel_reis_auflauf_1.jpg?h=4521fff0&itok=R35M9JWR",
+    "sourceUrl": "https://www.einfachkochen.de/rezepte/apfel-reis-auflauf",
+    "searchQuery": "Ofen Milchreis Apfel Zimt Rezept Bild appetitlich",
+    "notes": "Apple rice casserole from the oven, closer than the previous baked-rice Commons fallback."
+  },
+  "milchreis-auflauf-mit-pflaumen": {
+    "imageUrl": "https://cdn.reishunger.com/milchreis-quark-auflauf-mit-zwetschgenkompott-74ea1-4.jpg?width=1800&height=1200&quality=90",
+    "sourceUrl": "https://www.reishunger.de/rezepte/rezept/651/milchreis-quark-auflauf-mit-zwetschgenkompott",
+    "searchQuery": "Milchreis Auflauf Pflaumen Rezept Bild appetitlich",
+    "notes": "Milchreis-quark casserole with vivid plum compote, exact category match."
+  },
+  "crepes-mit-apfelmus-und-zimt": {
+    "imageUrl": "https://img.chefkoch-cdn.de/rezepte/966721202371305/bilder/836322/crop-640x427/cr-pes-mit-apfelkompott.jpg",
+    "sourceUrl": "https://www.chefkoch.de/rezepte/966721202371305/Crepes-mit-Apfelkompott.html",
+    "searchQuery": "Crêpes Apfelmus Zimt Rezept Foto appetitlich",
+    "notes": "Crepes with visible apple compote, a clearer match than the previous crepe suzette fallback."
+  },
+  "crepes-mit-quark-beeren-fuellung": {
+    "imageUrl": "https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/1946_1460/public/2025-08/2025_Erdbeer-Pfannkuchen_Aufmacher.jpg?h=a1e1a043&itok=GP76CV0N",
+    "sourceUrl": "https://www.einfachkochen.de/rezepte/erdbeer-pfannkuchen",
+    "searchQuery": "Crêpes Quark Beeren Füllung Rezept Foto appetitlich",
+    "notes": "Rolled pancakes with strawberry-quark filling, much clearer and brighter than the previous quark pancake photo."
+  },
+  "gefuellte-crepes-roellchen-mit-nutella-banane": {
+    "imageUrl": "https://www.gutekueche.at/storage/media/recipe/37887/conv/bananen-palatschinken-default.jpg",
+    "sourceUrl": "https://www.gutekueche.at/bananen-palatschinken-rezept-33379",
+    "searchQuery": "Nutella Banane Crêpes Rezept Foto appetitlich",
+    "notes": "Rolled banana-Nutella pancakes with whipped cream, exact and more appetizing than the food-stall prep shot."
+  },
+  "crepes-auflauf-mit-vanillequark": {
+    "imageUrl": "https://image.brigitte.de/11522808/t/Q-/v3/w960/r1/-/topfenpalatschinken-bild.jpg",
+    "sourceUrl": "https://www.brigitte.de/rezepte/topfenpalatschinken-10550486.html",
+    "searchQuery": "Crêpes Auflauf Vanillequark Rezept Bild appetitlich",
+    "notes": "Baked quark-filled pancakes in a casserole dish, an exact visual match for the planned sweet batch dish."
+  },
+  "erdbeer-tiramisu-ohne-ei": {
+    "imageUrl": "https://www.backenmachtgluecklich.de/media/2025/04/Erdbeer-Tiramisu-Rezept-730x395.jpg",
+    "sourceUrl": "https://www.backenmachtgluecklich.de/rezepte/erdbeer-tiramisu.html",
+    "searchQuery": "Erdbeer Tiramisu ohne Ei Rezept Bild appetitlich",
+    "notes": "Bright strawberry tiramisu in a glass dish with visible layers, much clearer than the previous dim restaurant plate."
+  },
+  "zitronen-tiramisu": {
+    "imageUrl": "https://rezeptemitherz.b-cdn.net/site/assets/files/544410/zitronen-tiramisu_ep-8.900x900-quadrat.675x0.jpg",
+    "sourceUrl": "https://rezeptemitherz-mag.de/thermomixrezepte/zitronen-tiramisu/",
+    "searchQuery": "Zitronen Tiramisu Rezept Bild appetitlich",
+    "notes": "Lemon tiramisu in a baking dish with lemons and ladyfingers, a much clearer match than the lemon cake fallback."
+  },
+  "griessbrei-mit-himbeersauce": {
+    "imageUrl": "https://ais.kochbar.de/kbrezept/536327_1004043/1200x1200/griesflammerie-mit-himbeer-ragout-rezept-bild-nr-7843.jpg",
+    "sourceUrl": "https://www.kochbar.de/rezept/536327/Griesflammerie-mit-Himbeer-Ragout.html",
+    "searchQuery": "Grießbrei mit Himbeersauce Rezept Foto appetitlich",
+    "notes": "Semolina pudding served on raspberry ragout, replacing the unrelated semolina halwa fallback."
+  },
+  "schokopudding-mit-sahne": {
+    "imageUrl": "https://www.einfachbacken.de/sites/einfachbacken.de/files/styles/1946_1460/public/2024-09/Schokopudding%20mit%20Sahne%201.jpg?h=8e3d3724&itok=W-nXsYKk",
+    "sourceUrl": "https://www.einfachbacken.de/rezepte/schokopudding-mit-sahne-so-einfach-schnell",
+    "searchQuery": "Schokopudding mit Sahne Rezept Bild appetitlich",
+    "notes": "Chocolate pudding in a glass with whipped cream and chocolate shavings, replacing the previous cake-like fallback."
+  },
+  "mascarpone-quark-creme-mit-fruechten": {
+    "imageUrl": "https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/1946_1460/public/2024-03/2024_quark-mascarpone-creme_aufmacher.jpg?h=4521fff0&itok=8Nhnk-zb",
+    "sourceUrl": "https://www.einfachkochen.de/rezepte/leckeres-dessert-im-glas",
+    "searchQuery": "Mascarpone Quark Creme Früchte Dessert im Glas Rezept Bild appetitlich",
+    "notes": "Quark-mascarpone cream in glasses with raspberry topping, replacing the unrelated fruit platter."
+  },
+  "mini-kaesekuchen-muffins": {
+    "imageUrl": "https://www.einfachkochen.de/sites/einfachkochen.de/files/styles/1946_1460/public/2024-03/2024_kleine-kaesekuechlein_aufmacher.jpg?h=d3178815&itok=ebOgSih4",
+    "sourceUrl": "https://www.einfachkochen.de/rezepte/kleine-kaesekuechlein-suesse-toertchen-muffinform",
+    "searchQuery": "Mini Käsekuchen Muffins Rezept Bild appetitlich",
+    "notes": "Small cheesecake muffins in paper liners, cleaner and more appetizing than the older fallback."
+  },
+  "apfel-zimt-tiramisu": {
+    "imageUrl": "https://www.einfachbacken.de/sites/einfachbacken.de/files/styles/1536_1152/public/2020-11/bratapfel_tiramisu_1.jpg?h=4521fff0&itok=AC2_k0g5",
+    "sourceUrl": "https://www.einfachbacken.de/rezepte/bratapfel-tiramisu-einfaches-dessert-im-glas",
+    "searchQuery": "Apfel Zimt Tiramisu Rezept Bild appetitlich",
+    "notes": "Bratapfel tiramisu in glasses, much more representative than the previous cupcake fallback."
+  },
+  "vanillepudding-mit-kirschgruetze": {
+    "imageUrl": "https://images.lecker.de/vanillepudding-mit-kirschkompott%2Cid%3Dba29c2b3%2Cb%3Dlecker%2Cw%3D1200%2Crm%3Dsk.jpeg",
+    "sourceUrl": "https://www.lecker.de/vanillepudding-mit-kirschkompott-62700.html",
+    "searchQuery": "Vanillepudding Kirschgrütze Rezept Bild appetitlich",
+    "notes": "Vanilla pudding with cherry compote in one glass, clearer than the previous pure cherry-grütze image."
+  },
+  "kaesekuchen-im-glas": {
+    "imageUrl": "https://www.giallozafferano.de/images/88-8843/kasekuchen-im-glas_650x433_wm.jpg",
+    "sourceUrl": "https://www.giallozafferano.de/rezepte/kasekuchen-im-glas.html",
+    "searchQuery": "Käsekuchen im Glas Rezept Bild appetitlich",
+    "notes": "Cheesecake jars with berry topping, exact presentation match."
+  },
+  "blondies-mit-weisser-schokolade": {
+    "imageUrl": "https://www.einfachbacken.de/sites/einfachbacken.de/files/styles/1536_1152/public/2019-03/erdbeer_blondies-1.jpg?h=809d6b6a&itok=okOalgZs",
+    "sourceUrl": "https://www.einfachbacken.de/rezepte/erdbeer-blondies",
+    "searchQuery": "Blondies weiße Schokolade Rezept Bild appetitlich",
+    "notes": "Bright blondies photo, closer to the intended baked bar than the previous peanut-butter-cup Commons fallback."
   }
 }

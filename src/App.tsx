@@ -1,18 +1,73 @@
 import { AnimatePresence, motion, type PanInfo, type Variants } from "framer-motion";
-import { Heart, RotateCcw, Share2, Star, X, type LucideIcon } from "lucide-react";
+import {
+  ArrowLeft,
+  CakeSlice,
+  Heart,
+  RotateCcw,
+  Salad,
+  Share2,
+  Star,
+  X,
+  type LucideIcon,
+} from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import recipesJson from "./data/recipes.json";
+import healthyRecipesJson from "./data/recipes.json";
+import sweetRecipesJson from "./data/sweet-recipes.json";
+import {
+  createEmptyDeckRunState,
+  restoreDeckState,
+} from "./lib/decks";
 import {
   advanceCursor,
   countResponses,
   createExportText,
-  normalizeCursor,
   recordDecision,
 } from "./lib/swipe";
-import type { Recipe, SwipeDecision, SwipeResponses } from "./types";
+import type {
+  DeckRunState,
+  DeckState,
+  Recipe,
+  RecipeDeckId,
+  SwipeDecision,
+} from "./types";
 
-const recipes = recipesJson as Recipe[];
+const healthyRecipes = healthyRecipesJson as Recipe[];
+const sweetRecipes = sweetRecipesJson as Recipe[];
 const storageKey = "wochenbett-tinder-state-v1";
+
+const recipeDecks: Record<
+  RecipeDeckId,
+  {
+    id: RecipeDeckId;
+    label: string;
+    shortLabel: string;
+    description: string;
+    recipes: Recipe[];
+    Icon: LucideIcon;
+  }
+> = {
+  healthy: {
+    id: "healthy",
+    label: "Gesunde Wochenbett-Prep",
+    shortLabel: "Wochenbett-Prep",
+    description: "Warme, milde Mahlzeiten und Frühstücke für den Vorrat.",
+    recipes: healthyRecipes,
+    Icon: Salad,
+  },
+  sweets: {
+    id: "sweets",
+    label: "Schweinezeug und Genuss",
+    shortLabel: "Genuss",
+    description: "Süßspeisen, Desserts und kleine Belohnungsportionen.",
+    recipes: sweetRecipes,
+    Icon: CakeSlice,
+  },
+};
+
+const recipesByDeck = {
+  healthy: healthyRecipes,
+  sweets: sweetRecipes,
+};
 
 const cardVariants: Variants = {
   enter: { opacity: 0, y: 18, scale: 0.96 },
@@ -35,59 +90,18 @@ const decisionFeedback: Record<
   superlike: { label: "Superlike", Icon: Star },
 };
 
-interface PersistedState {
-  cursor: number;
-  cycles: number;
-  responses: SwipeResponses;
-}
-
-const emptyState: PersistedState = {
-  cursor: 0,
-  cycles: 0,
-  responses: {},
-};
-
-function readPersistedState(): PersistedState {
+function readPersistedState(): DeckState {
   try {
     const rawState = window.localStorage.getItem(storageKey);
 
     if (!rawState) {
-      return emptyState;
+      return restoreDeckState(null, recipesByDeck);
     }
 
-    const parsed = JSON.parse(rawState) as Partial<PersistedState>;
-
-    return {
-      cursor: normalizeCursor(parsed.cursor, recipes.length),
-      cycles:
-        typeof parsed.cycles === "number" && Number.isFinite(parsed.cycles)
-          ? Math.max(0, Math.floor(parsed.cycles))
-          : 0,
-      responses: sanitizeResponses(parsed.responses),
-    };
+    return restoreDeckState(JSON.parse(rawState), recipesByDeck);
   } catch {
-    return emptyState;
+    return restoreDeckState(null, recipesByDeck);
   }
-}
-
-function sanitizeResponses(responses: unknown): SwipeResponses {
-  if (!responses || typeof responses !== "object") {
-    return {};
-  }
-
-  const knownIds = new Set(recipes.map((recipe) => recipe.id));
-  const sanitized: SwipeResponses = {};
-
-  for (const [recipeId, decision] of Object.entries(responses)) {
-    if (
-      knownIds.has(recipeId) &&
-      (decision === "nope" || decision === "like" || decision === "superlike")
-    ) {
-      sanitized[recipeId] = decision;
-    }
-  }
-
-  return sanitized;
 }
 
 function getImageUrl(recipe: Recipe): string {
@@ -105,25 +119,38 @@ function createDownloadFallback(text: string): void {
 }
 
 export default function App() {
-  const [state, setState] = useState<PersistedState>(() => readPersistedState());
+  const [deckState, setDeckState] = useState<DeckState>(() => readPersistedState());
+  const [selectedDeckId, setSelectedDeckId] = useState<RecipeDeckId | null>(null);
   const [lastDecision, setLastDecision] = useState<SwipeDecision | null>(null);
   const [feedbackDecision, setFeedbackDecision] = useState<SwipeDecision | null>(
     null,
   );
   const [toast, setToast] = useState<string | null>(null);
 
-  const activeRecipe = recipes[state.cursor] ?? recipes[0];
+  const activeDeck = selectedDeckId ? recipeDecks[selectedDeckId] : null;
+  const activeDeckState = selectedDeckId
+    ? deckState[selectedDeckId]
+    : createEmptyDeckRunState();
+  const activeRecipe = activeDeck?.recipes[activeDeckState.cursor] ?? activeDeck?.recipes[0];
   const feedback = feedbackDecision ? decisionFeedback[feedbackDecision] : null;
   const FeedbackIcon = feedback?.Icon;
   const counts = useMemo(
-    () => countResponses(recipes, state.responses),
-    [state.responses],
+    () =>
+      activeDeck
+        ? countResponses(activeDeck.recipes, activeDeckState.responses)
+        : { answered: 0, nope: 0, like: 0, superlike: 0 },
+    [activeDeck, activeDeckState.responses],
   );
-  const progressText = `${state.cursor + 1}/${recipes.length}`;
+  const progressText = activeDeck
+    ? `${activeDeckState.cursor + 1}/${activeDeck.recipes.length}`
+    : "Auswahl";
 
   useEffect(() => {
-    window.localStorage.setItem(storageKey, JSON.stringify(state));
-  }, [state]);
+    window.localStorage.setItem(
+      storageKey,
+      JSON.stringify({ version: 2, decks: deckState }),
+    );
+  }, [deckState]);
 
   useEffect(() => {
     if (!feedbackDecision) {
@@ -143,39 +170,58 @@ export default function App() {
     return () => window.clearTimeout(timeoutId);
   }, [toast]);
 
+  const selectDeck = useCallback((deckId: RecipeDeckId, decision: SwipeDecision) => {
+    setFeedbackDecision(null);
+    setLastDecision(decision);
+    setSelectedDeckId(deckId);
+    setToast(null);
+  }, []);
+
+  const returnToDeckChoice = useCallback(() => {
+    setFeedbackDecision(null);
+    setLastDecision(null);
+    setSelectedDeckId(null);
+  }, []);
+
   const submitDecision = useCallback(
     (decision: SwipeDecision) => {
-      if (!activeRecipe) {
+      if (!selectedDeckId || !activeDeck || !activeRecipe) {
         return;
       }
 
       setFeedbackDecision(decision);
       setLastDecision(decision);
-      setState((currentState) => {
+      setDeckState((currentDeckState) => {
+        const currentRunState = currentDeckState[selectedDeckId];
         const { nextIndex, completedCycle } = advanceCursor(
-          currentState.cursor,
-          recipes.length,
+          currentRunState.cursor,
+          activeDeck.recipes.length,
         );
 
         if (completedCycle) {
           setToast("Alle Gerichte gesehen. Der Durchlauf startet von vorne.");
         }
 
-        return {
+        const nextRunState: DeckRunState = {
           cursor: nextIndex,
-          cycles: currentState.cycles + (completedCycle ? 1 : 0),
+          cycles: currentRunState.cycles + (completedCycle ? 1 : 0),
           responses: recordDecision(
-            currentState.responses,
+            currentRunState.responses,
             activeRecipe.id,
             decision,
           ),
         };
+
+        return {
+          ...currentDeckState,
+          [selectedDeckId]: nextRunState,
+        };
       });
     },
-    [activeRecipe],
+    [activeDeck, activeRecipe, selectedDeckId],
   );
 
-  const onDragEnd = useCallback(
+  const onRecipeDragEnd = useCallback(
     (_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
       const horizontalIntent = Math.abs(info.offset.x) > Math.abs(info.offset.y);
 
@@ -196,9 +242,36 @@ export default function App() {
     [submitDecision],
   );
 
+  const onDeckChoiceDragEnd = useCallback(
+    (_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
+      const horizontalIntent = Math.abs(info.offset.x) > Math.abs(info.offset.y);
+
+      if (horizontalIntent && (info.offset.x > 110 || info.velocity.x > 650)) {
+        selectDeck("healthy", "like");
+      }
+
+      if (horizontalIntent && (info.offset.x < -110 || info.velocity.x < -650)) {
+        selectDeck("sweets", "nope");
+      }
+    },
+    [selectDeck],
+  );
+
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.metaKey || event.ctrlKey || event.altKey) {
+        return;
+      }
+
+      if (!selectedDeckId) {
+        if (event.key === "ArrowLeft") {
+          selectDeck("sweets", "nope");
+        }
+
+        if (event.key === "ArrowRight") {
+          selectDeck("healthy", "like");
+        }
+
         return;
       }
 
@@ -217,10 +290,18 @@ export default function App() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [submitDecision]);
+  }, [selectDeck, selectedDeckId, submitDecision]);
 
   const shareResults = useCallback(async () => {
-    const text = createExportText(recipes, state.responses);
+    if (!activeDeck) {
+      return;
+    }
+
+    const text = createExportText(
+      activeDeck.recipes,
+      activeDeckState.responses,
+      `${activeDeck.label} Ergebnis`,
+    );
 
     try {
       if (navigator.share) {
@@ -246,18 +327,28 @@ export default function App() {
         setToast("Ergebnis wurde gespeichert.");
       }
     }
-  }, [state.responses]);
+  }, [activeDeck, activeDeckState.responses]);
 
   const resetResponses = useCallback(() => {
-    if (counts.answered > 0 && !window.confirm("Alle Antworten löschen?")) {
+    if (!selectedDeckId || !activeDeck) {
+      return;
+    }
+
+    if (
+      counts.answered > 0 &&
+      !window.confirm(`Alle Antworten für "${activeDeck.label}" löschen?`)
+    ) {
       return;
     }
 
     setLastDecision(null);
     setFeedbackDecision(null);
-    setState(emptyState);
+    setDeckState((currentDeckState) => ({
+      ...currentDeckState,
+      [selectedDeckId]: createEmptyDeckRunState(),
+    }));
     setToast("Antworten wurden gelöscht.");
-  }, [counts.answered]);
+  }, [activeDeck, counts.answered, selectedDeckId]);
 
   return (
     <main className="app-shell">
@@ -268,6 +359,18 @@ export default function App() {
         </div>
 
         <div className="top-actions">
+          {activeDeck && (
+            <button
+              className="deck-switch-button"
+              type="button"
+              onClick={returnToDeckChoice}
+              aria-label="Kategorie wechseln"
+              title="Kategorie wechseln"
+            >
+              <ArrowLeft aria-hidden="true" />
+              <span>{activeDeck.shortLabel}</span>
+            </button>
+          )}
           <span className="progress-pill" aria-label="Fortschritt">
             {progressText}
           </span>
@@ -275,6 +378,7 @@ export default function App() {
             className="icon-button"
             type="button"
             onClick={shareResults}
+            disabled={!activeDeck}
             aria-label="Ergebnis teilen"
             title="Ergebnis teilen"
           >
@@ -284,6 +388,7 @@ export default function App() {
             className="icon-button"
             type="button"
             onClick={resetResponses}
+            disabled={!activeDeck}
             aria-label="Antworten zurücksetzen"
             title="Antworten zurücksetzen"
           >
@@ -294,39 +399,82 @@ export default function App() {
 
       <section className="deck-area" aria-live="polite">
         <AnimatePresence mode="popLayout" custom={lastDecision}>
-          <motion.article
-            key={`${activeRecipe.id}-${state.cursor}-${state.cycles}`}
-            className="recipe-card"
-            custom={lastDecision}
-            drag
-            dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
-            dragElastic={0.2}
-            onDragEnd={onDragEnd}
-            variants={cardVariants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            transition={{ type: "spring", stiffness: 260, damping: 26 }}
-          >
-            <img
-              className="recipe-image"
-              src={getImageUrl(activeRecipe)}
-              alt={activeRecipe.name}
-              draggable="false"
-            />
+          {!activeDeck && (
+            <motion.article
+              key="deck-choice"
+              className="recipe-card deck-choice-card"
+              custom={lastDecision}
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragElastic={0.2}
+              onDragEnd={onDeckChoiceDragEnd}
+              variants={cardVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{ type: "spring", stiffness: 260, damping: 26 }}
+            >
+              <div className="deck-choice-background" />
+              <div className="deck-choice-content">
+                <span className="category-chip">Was wird getindert?</span>
+                <h2>Wähle deinen Stapel</h2>
+                <div className="deck-choice-options">
+                  <button
+                    className="deck-choice-option deck-choice-option-sweets"
+                    type="button"
+                    onClick={() => selectDeck("sweets", "nope")}
+                  >
+                    <CakeSlice aria-hidden="true" />
+                    <span>{recipeDecks.sweets.label}</span>
+                  </button>
+                  <button
+                    className="deck-choice-option deck-choice-option-healthy"
+                    type="button"
+                    onClick={() => selectDeck("healthy", "like")}
+                  >
+                    <Salad aria-hidden="true" />
+                    <span>{recipeDecks.healthy.label}</span>
+                  </button>
+                </div>
+              </div>
+            </motion.article>
+          )}
 
-            <div className="card-gradient card-gradient-top" />
-            <div className="card-gradient card-gradient-bottom" />
+          {activeDeck && activeRecipe && (
+            <motion.article
+              key={`${activeDeck.id}-${activeRecipe.id}-${activeDeckState.cursor}-${activeDeckState.cycles}`}
+              className="recipe-card"
+              custom={lastDecision}
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragElastic={0.2}
+              onDragEnd={onRecipeDragEnd}
+              variants={cardVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{ type: "spring", stiffness: 260, damping: 26 }}
+            >
+              <img
+                className="recipe-image"
+                src={getImageUrl(activeRecipe)}
+                alt={activeRecipe.name}
+                draggable="false"
+              />
 
-            <div className="card-header">
-              <span className="category-chip">{activeRecipe.category}</span>
-              <h2>{activeRecipe.name}</h2>
-            </div>
+              <div className="card-gradient card-gradient-top" />
+              <div className="card-gradient card-gradient-bottom" />
 
-            <div className="card-copy">
-              <p>{activeRecipe.description}</p>
-            </div>
-          </motion.article>
+              <div className="card-header">
+                <span className="category-chip">{activeRecipe.category}</span>
+                <h2>{activeRecipe.name}</h2>
+              </div>
+
+              <div className="card-copy">
+                <p>{activeRecipe.description}</p>
+              </div>
+            </motion.article>
+          )}
         </AnimatePresence>
 
         <AnimatePresence>
@@ -350,39 +498,73 @@ export default function App() {
       </section>
 
       <footer className="control-rail">
-        <button
-          className="action-button action-nope"
-          type="button"
-          onClick={() => submitDecision("nope")}
-          aria-label="Nein"
-          title="Nein"
-        >
-          <X aria-hidden="true" />
-        </button>
-        <button
-          className="action-button action-super"
-          type="button"
-          onClick={() => submitDecision("superlike")}
-          aria-label="Superlike"
-          title="Superlike"
-        >
-          <Star aria-hidden="true" />
-        </button>
-        <button
-          className="action-button action-like"
-          type="button"
-          onClick={() => submitDecision("like")}
-          aria-label="Ja"
-          title="Ja"
-        >
-          <Heart aria-hidden="true" />
-        </button>
+        {activeDeck ? (
+          <>
+            <button
+              className="action-button action-nope"
+              type="button"
+              onClick={() => submitDecision("nope")}
+              aria-label="Nein"
+              title="Nein"
+            >
+              <X aria-hidden="true" />
+            </button>
+            <button
+              className="action-button action-super"
+              type="button"
+              onClick={() => submitDecision("superlike")}
+              aria-label="Superlike"
+              title="Superlike"
+            >
+              <Star aria-hidden="true" />
+            </button>
+            <button
+              className="action-button action-like"
+              type="button"
+              onClick={() => submitDecision("like")}
+              aria-label="Ja"
+              title="Ja"
+            >
+              <Heart aria-hidden="true" />
+            </button>
+          </>
+        ) : (
+          <>
+            <button
+              className="action-button action-nope"
+              type="button"
+              onClick={() => selectDeck("sweets", "nope")}
+              aria-label={recipeDecks.sweets.label}
+              title={recipeDecks.sweets.label}
+            >
+              <CakeSlice aria-hidden="true" />
+            </button>
+            <button
+              className="action-button action-like"
+              type="button"
+              onClick={() => selectDeck("healthy", "like")}
+              aria-label={recipeDecks.healthy.label}
+              title={recipeDecks.healthy.label}
+            >
+              <Salad aria-hidden="true" />
+            </button>
+          </>
+        )}
       </footer>
 
       <div className="summary-strip" aria-label="Zwischenstand">
-        <span>{counts.superlike} Superlikes</span>
-        <span>{counts.like} Ja</span>
-        <span>{counts.nope} Nein</span>
+        {activeDeck ? (
+          <>
+            <span>{counts.superlike} Superlikes</span>
+            <span>{counts.like} Ja</span>
+            <span>{counts.nope} Nein</span>
+          </>
+        ) : (
+          <>
+            <span>{healthyRecipes.length} Prep-Ideen</span>
+            <span>{sweetRecipes.length} Genuss-Ideen</span>
+          </>
+        )}
       </div>
 
       {toast && (

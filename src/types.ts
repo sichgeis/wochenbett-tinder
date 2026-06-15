@@ -1,4 +1,5 @@
 export type SwipeDecision = "nope" | "like" | "superlike";
+export type RecipeDeckId = "healthy" | "sweets";
 
 export interface Recipe {
   id: string;
@@ -11,3 +12,11 @@ export interface Recipe {
 }
 
 export type SwipeResponses = Partial<Record<string, SwipeDecision>>;
+
+export interface DeckRunState {
+  cursor: number;
+  cycles: number;
+  responses: SwipeResponses;
+}
+
+export type DeckState = Record<RecipeDeckId, DeckRunState>;

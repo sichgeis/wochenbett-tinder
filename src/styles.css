@@ -81,7 +81,8 @@ button {
 }
 
 .progress-pill,
-.icon-button {
+.icon-button,
+.deck-switch-button {
   height: 42px;
   border: 1px solid rgba(27, 42, 37, 0.12);
   background: rgba(255, 255, 255, 0.74);
@@ -101,7 +102,8 @@ button {
 }
 
 .icon-button,
-.action-button {
+.action-button,
+.deck-switch-button {
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -114,7 +116,28 @@ button {
   width: 42px;
 }
 
-.icon-button svg {
+.deck-switch-button {
+  max-width: 152px;
+  padding: 0 12px;
+  gap: 7px;
+  border-radius: 8px;
+  font-size: 0.83rem;
+  font-weight: 850;
+}
+
+.deck-switch-button span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon-button:disabled {
+  cursor: default;
+  opacity: 0.46;
+}
+
+.icon-button svg,
+.deck-switch-button svg {
   width: 19px;
   height: 19px;
 }
@@ -144,6 +167,72 @@ button {
 
 .recipe-card:active {
   cursor: grabbing;
+}
+
+.deck-choice-card {
+  background: #28372f;
+}
+
+.deck-choice-background {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(11, 16, 15, 0.24), rgba(11, 16, 15, 0.7)),
+    linear-gradient(135deg, #9fbf9d 0%, #f1d0b7 48%, #785244 100%);
+}
+
+.deck-choice-content {
+  position: absolute;
+  inset: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.3);
+}
+
+.deck-choice-content h2 {
+  max-width: 9ch;
+  margin: 14px 0 auto;
+  font-size: 3rem;
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.deck-choice-options {
+  display: grid;
+  gap: 12px;
+}
+
+.deck-choice-option {
+  min-height: 76px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #1d2b27;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.16);
+  font-weight: 900;
+  text-align: left;
+  cursor: pointer;
+}
+
+.deck-choice-option svg {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  stroke-width: 2.6;
+}
+
+.deck-choice-option-sweets {
+  color: #8f3f62;
+}
+
+.deck-choice-option-healthy {
+  color: #2f7b55;
 }
 
 .decision-feedback {
@@ -322,11 +411,19 @@ button {
 }
 
 .icon-button:hover,
+.deck-switch-button:hover,
 .action-button:hover,
 .icon-button:focus-visible,
+.deck-switch-button:focus-visible,
 .action-button:focus-visible {
   transform: translateY(-1px);
   outline: 3px solid rgba(47, 121, 209, 0.18);
+}
+
+.icon-button:disabled:hover,
+.icon-button:disabled:focus-visible {
+  transform: none;
+  outline: none;
 }
 
 .summary-strip {
@@ -373,6 +470,11 @@ button {
     gap: 6px;
   }
 
+  .deck-switch-button {
+    max-width: 116px;
+    padding-inline: 9px;
+  }
+
   .progress-pill {
     min-width: 52px;
     padding-inline: 9px;
@@ -397,6 +499,19 @@ button {
 
   .card-header h2 {
     font-size: 1.72rem;
+  }
+
+  .deck-choice-content {
+    inset: 18px;
+  }
+
+  .deck-choice-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .deck-choice-option {
+    min-height: 70px;
+    padding: 12px;
   }
 
   .card-copy p {
